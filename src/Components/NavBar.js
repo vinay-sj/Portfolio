@@ -3,11 +3,14 @@ import {Navbar, Nav} from "react-bootstrap";
 import logo from "../logo.png";
 import './../css/NavBar.css';
 import pdf from '../files/resume.pdf'
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faDownload} from "@fortawesome/free-solid-svg-icons";
 
 class NavBar extends React.Component {
   render() {
     return (
       <Navbar
+        fixed={'top'}
         collapseOnSelect
         expand="lg"
         className="header-margin"
@@ -16,7 +19,7 @@ class NavBar extends React.Component {
         <div className='container'>
           <Navbar.Brand>
             <div className='d-inline-flex link-format'>
-              <Nav.Link href="#logo">
+              <Nav.Link href="#home">
                 <div className='logo' id="logo">
                   <img width='100%' src={logo} alt='Logo'/>
                 </div>
@@ -35,8 +38,8 @@ class NavBar extends React.Component {
               <Nav.Link href='#logo' className="mr-4">
                 <Nav.Item>Experiences</Nav.Item>
               </Nav.Link>
-              <Nav.Link href='#logo' className="mr-4">
-                <Nav.Item>Work</Nav.Item>
+              <Nav.Link href='#projects' className="mr-4">
+                <Nav.Item>Projects</Nav.Item>
               </Nav.Link>
               <Nav.Link href='#contact' className="mr-4">
                 <Nav.Item>Contact</Nav.Item>
@@ -47,7 +50,7 @@ class NavBar extends React.Component {
                 className="mr-4"
                 rel="noopener noreferrer"
               >
-                <Nav.Item>Resume</Nav.Item>
+                <Nav.Item><FontAwesomeIcon icon={faDownload} size="1x" className='mr-2'/>Resume</Nav.Item>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

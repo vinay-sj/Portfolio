@@ -1,0 +1,20 @@
+.home-text {
+    text-align: left;
+}
+
+.home-name {
+    font-size: 60px;
+}
+
+.home-hi {
+    color: rgb(0,219,255);
+font-size: 20px;
+}
+
+.home-desc {
+    font-size: 15px;
+    padding-left: 0px!important;
+}
+.home-role{
+    font-size: 40px;
+}

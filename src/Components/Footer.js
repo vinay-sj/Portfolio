@@ -14,7 +14,7 @@ export default class Footer extends React.Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faGithub} size="2x"/>
+          <FontAwesomeIcon icon={faGithub} size="2x" className='mr-2'/>
         </a>
       </div>
     );
