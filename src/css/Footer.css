@@ -1,0 +1,24 @@
+.footer{
+    /*color: #8892B0;*/
+    font-size: 12px;
+    font-family: Verdana;
+}
+.github {
+    color: white;
+}
+.fa-github:hover {
+    transform: scale(1.1);
+}
+.App a:hover {
+    color: rgb(0,219,255);
+    text-decoration: none;
+}
+.foot{
+    align-items: center;
+    text-align: center;
+}
+
+.footer-spacing{
+    margin-top: 200px;
+    padding-bottom: 20px;
+}

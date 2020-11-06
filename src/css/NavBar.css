@@ -1,0 +1,23 @@
+.logo {
+    height: 50px;
+    border: solid 3px rgb(0,219,255);
+    width: 50px;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+div{
+    color: ghostwhite;
+}
+.App a .nav-item:hover {
+    color: rgb(0,219,255)!important;
+    text-decoration: none;
+}
+.logo img {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+.logo img:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}

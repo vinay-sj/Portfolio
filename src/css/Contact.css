@@ -1,0 +1,12 @@
+.spacing{
+    margin-top: 200px;
+}
+.App .spacing a{
+    text-decoration: none;
+}
+.link-color{
+    color: white;
+}
+.contact-message{
+    padding-top: 20px;
+}
