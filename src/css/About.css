@@ -1,0 +1,31 @@
+.photo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+}
+
+
+@media (min-width: 600px) {
+    .photo {
+        height: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .photo {
+        height: 200px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .photo {
+        height: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .photo {
+        height: 300px;
+    }
+}

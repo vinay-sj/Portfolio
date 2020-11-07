@@ -32,7 +32,7 @@ function content(name, img, githubLink, extLink, detailList, dir) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faGithub} size="2x" className='mr-2'/>
+          <FontAwesomeIcon icon={faGithub} size="2x" className='mr-4'/>
         </a>
       )
     } else {
@@ -46,8 +46,8 @@ function content(name, img, githubLink, extLink, detailList, dir) {
     if (dir === 'left') {
       return (
         <>
-          <Col md={6}><img src={img} height='250px'/></Col>
-          <Col md={6} className="my-auto">
+          <Col lg={6}><img className='project-img' src={img} /></Col>
+          <Col lg={6} className="my-auto">
             <ul className='project-content'>
               {details(detailList)}
             </ul>
@@ -59,14 +59,14 @@ function content(name, img, githubLink, extLink, detailList, dir) {
     } else {
       return (
         <>
-          <Col md={6} className="my-auto">
+          <Col lg={6} className='my-auto order-2 order-md-2 order-lg-1 order-xl-1'>
             <ul className='project-content'>
               {details(detailList)}
             </ul>
             {linksinpage(githubLink, faGithub)}
             {linksinpage(extLink, faExternalLinkAlt)}
           </Col>
-          <Col md={6}><img src={img} height='250px'/></Col>
+          <Col lg={6} className='order-1 order-md-1 order-lg-2 order-xl-2 my-auto'><img className='project-img' src={img}/></Col>
         </>
       )
     }

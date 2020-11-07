@@ -2,19 +2,71 @@
     text-align: left;
 }
 
-.home-name {
-    font-size: 60px;
-}
-
 .home-hi {
-    color: rgb(0,219,255);
-font-size: 20px;
+    font-size: 15px;
+    color: rgb(0, 219, 255);
 }
 
 .home-desc {
     font-size: 15px;
-    padding-left: 0px!important;
+    padding-left: 0px !important;
 }
-.home-role{
+
+.home-name {
     font-size: 40px;
+}
+
+.home-role {
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    .home-name {
+        font-size: 50px;
+    }
+
+    .home-role {
+        font-size: 30px;
+    }
+
+    .home-hi {
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .home-name {
+        font-size: 60px;
+    }
+
+    .home-role {
+        font-size: 40px;
+    }
+
+    .home-hi {
+        font-size: 20px;
+    }
+
+    .home-desc {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-name {
+        font-size: 70px;
+    }
+
+    .home-role {
+        font-size: 50px;
+    }
+
+    .home-hi {
+        font-size: 30px;
+    }
+
+    .home-desc {
+        font-size: 18px;
+    }
 }
