@@ -3,6 +3,7 @@ import './../css/Contact.css'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import Message from "./Message";
 
 class Contact extends React.Component {
   render() {
@@ -13,12 +14,7 @@ class Contact extends React.Component {
         <p className="mt-5 mb-4">I am currently looking for Spring 2021 Internship/Coop
           or Fulltime starting May 2021. My inbox is always open, even for just a 'Hi'.</p>
 
-        <div className="mt-3 mb-3 p-0 contact align-content-center">
-          <a href="mailto:srampickaljoseph.v@northeastern.edu" className="link-color mb-2">
-            <FontAwesomeIcon icon={faEnvelope} size="2x" className='mr-2'/>
-            Message Me
-          </a>
-        </div>
+        <Message message='Message Me' />
 
         <p className="mt-5 mb-4">Or, you can connect with me on my social media!</p>
 

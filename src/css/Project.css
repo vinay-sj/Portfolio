@@ -1,5 +1,14 @@
 .App .project-content{
     text-align: left;
     justify-content: left;
-
+}
+#projects a.active {
+    background-color: rgb(0,219,255);
+    color: black;
+    /*color*/
+}
+#projects:focus-visible a.active {
+    background-color: rgb(0,219,255);
+    color: black;
+    /*color*/
 }

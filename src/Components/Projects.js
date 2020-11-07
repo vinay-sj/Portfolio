@@ -86,7 +86,7 @@ class Projects extends React.Component {
     return (
       <div className='spacing container' id='projects'>
         <h1>My Projects</h1>
-        <Tabs defaultActiveKey="webdevproject" id="uncontrolled-tab-example">
+        <Tabs defaultActiveKey="webdevproject" id="uncontrolled-tab-example" className='mt-5'>
           <Tab tabClassName='link-color' eventKey="webdevproject" title="Just Dream Flight Booking">
             {content('Just Dream Flight Booking', flightbooking, 'https://github.com/', 'https://avengers-flightbooking-ui.herokuapp.com/',
               ['Created a Single Page Web Application using the MERN stack that provides a platform to book flight tickets and implemented all the CRUD operations on bookings and passenger details',

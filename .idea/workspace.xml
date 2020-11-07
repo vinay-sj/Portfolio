@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf2d1f05-c056-4a3f-8d18-55abd17182c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Experiences.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Experiences.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/NavBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Project.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/resume.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/files" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -45,6 +47,8 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -82,7 +86,9 @@
       <updated>1604548137208</updated>
       <workItem from="1604548138306" duration="1648000" />
       <workItem from="1604553113675" duration="22968000" />
-      <workItem from="1604611132874" duration="13292000" />
+      <workItem from="1604611132874" duration="13371000" />
+      <workItem from="1604677847111" duration="1190000" />
+      <workItem from="1604679278554" duration="6132000" />
     </task>
     <servers />
   </component>
@@ -90,6 +96,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2560" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1604677581225">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2560" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604677581225" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1604601688660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

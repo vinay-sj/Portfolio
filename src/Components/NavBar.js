@@ -2,7 +2,7 @@ import React from 'react';
 import {Navbar, Nav} from "react-bootstrap";
 import logo from "../logo.png";
 import './../css/NavBar.css';
-import pdf from '../files/resume.pdf'
+import pdf from '../files/Vinay_Resume.pdf'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDownload} from "@fortawesome/free-solid-svg-icons";
 
@@ -32,10 +32,10 @@ class NavBar extends React.Component {
             className="justify-content-end"
           >
             <Nav>
-              <Nav.Link href='#logo' className="mr-4">
+              <Nav.Link href='#about' className="mr-4">
                 <Nav.Item>About</Nav.Item>
               </Nav.Link>
-              <Nav.Link href='#logo' className="mr-4">
+              <Nav.Link href='#work' className="mr-4">
                 <Nav.Item>Experiences</Nav.Item>
               </Nav.Link>
               <Nav.Link href='#projects' className="mr-4">

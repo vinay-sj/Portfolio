@@ -1,5 +1,6 @@
 import React from 'react';
 import './../css/Home.css'
+import Message from "./Message";
 
 class Home extends React.Component {
   render() {
@@ -12,6 +13,9 @@ class Home extends React.Component {
           <h6 className='home-desc col-md-8 mt-4' >I am a Master of Science in Computer Science (MSCS) candidate at Northeastern
             University, Boston. I am a fun-loving person who loves to push limits and explore my potential. I love to
             learn new things, and this keeps me interested in learning new languages and technologies.</h6>
+          <div className='mt-4'>
+          <Message message='Get in Touch' />
+          </div>
         </div>
       </div>
     );
