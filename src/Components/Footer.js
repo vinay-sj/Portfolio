@@ -6,7 +6,7 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons';
 export default class Footer extends React.Component {
   render() {
     return (
-      <div className="footer-spacing foot mb-4">
+      <div className="footer-spacing foot">
         <p className="footer">Built using React.Js by Vinay Srampickal Joseph.</p>
         <a
           className="github"

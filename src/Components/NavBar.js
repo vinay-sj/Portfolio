@@ -10,7 +10,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <Navbar
-        fixed={'top'}
+        sticky={'top'}
         collapseOnSelect
         expand="lg"
         className="header-margin"

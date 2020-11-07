@@ -25,7 +25,7 @@ class About extends React.Component {
             <p>
               Technologies I am working on:
             </p>
-            <Row>
+            {/*<Row>*/}
               <ul className='row'>
                 <Col xs={6} sm={6} md={6} lg={4}>
                   <li>Java</li>
@@ -74,7 +74,7 @@ class About extends React.Component {
                 </Col>
               </ul>
 
-            </Row>
+            {/*</Row>*/}
           </Col>
           <Col md={6} className='order-1 order-md-2 order-lg-2 order-xl-2 my-auto' >
             <img className='photo' src={profile}  alt='profile'/>
