@@ -88,34 +88,34 @@ class Projects extends React.Component {
         <h1>My Projects</h1>
         <Tabs defaultActiveKey="webdevproject" id="uncontrolled-tab-example" className='mt-5'>
           <Tab tabClassName='link-color' eventKey="webdevproject" title="Just Dream Flight Booking">
-            {content('Just Dream Flight Booking', flightbooking, 'https://github.com/', 'https://avengers-flightbooking-ui.herokuapp.com/',
+            {content('Just Dream Flight Booking', flightbooking, 'https://github.com/vinay-sj/Flight-Booking-UI', 'https://avengers-flightbooking-ui.herokuapp.com/',
               ['Created a Single Page Web Application using the MERN stack that provides a platform to book flight tickets and implemented all the CRUD operations on bookings and passenger details',
                 'Developed backend Rest APIs and MongoDB to store and manipulate flight and passenger details',
                 'Handled authentication of users using Google Sign-In for Websites, managed user sessions'], 'left')}
           </Tab>
           <Tab tabClassName='link-color' eventKey="webdev" title="Issue Tracker">
-            {content('Issue Tracker', issuetracker, 'https://github.com/', 'https://tracker-ui-vinay-sj.herokuapp.com/',
+            {content('Issue Tracker', issuetracker, 'https://github.com/vinay-sj/Issue-Tracker', 'https://tracker-ui-vinay-sj.herokuapp.com/',
               ['Developed a Full-stack web application using the MERN stack that can be used to track issue lifecycle.',
                 'Implemented authentication of users using Google Sign-In for Websites, managed different user profiles and developed backend APIs using GraphQL and MongoDB.',
                 'Provided the user options to add, update, delete and view issues and track the status and effort of the issues.'], 'right')}
           </Tab>
           <Tab tabClassName='link-color' eventKey="roboticsvision" title="Object Perception">
-            {content('Object Perception', objectperception, 'https://github.com/', '',
+            {content('Object Perception', objectperception, 'https://github.com/vinay-sj/Object-Perception', '',
               ['Tracked an object in a video using feature matching in real-time using OpenCV and determine its 3D position and orientation using quaternion',
                 'Compared calculated pose to ground truth using ROS package AR Track Alvar by tracking an AR tag affixed on object'], 'left')}
           </Tab>
           <Tab tabClassName='link-color' eventKey="robotics" title="DuckieSky Drone">
-            {content('DuckieSky Drone', duckiedrone, 'https://github.com/', '',
+            {content('DuckieSky Drone', duckiedrone, 'https://github.com/vinay-sj/DuckieSky-Drone', '',
               ['Built an autonomous Raspberry Pi drone using the Duckie Drone kit that can take-off, hover, and fly in various trajectories.',
                 'Tuned the Planar, Altitude, and Position controllers using PIDs to control the velocity, altitude, and position, respectively, using ROS.'], 'right')}
           </Tab>
           <Tab tabClassName='link-color' eventKey="pdp" title="Image Processing Application">
-            {content('Image Processing Application', imageprocess, 'https://github.com/', '',
+            {content('Image Processing Application', imageprocess, 'https://github.com/vinay-sj/Image-Processor', '',
               ['Constructed an Image processing application in Java that performs Image Generation and Color Transformation operations using MVC architecture and design patterns',
                 'Designed a UI using Java Swing that displays image and supports all functionalities and a command-line interface that can batch process multiple images'], 'left')}
           </Tab>
           <Tab tabClassName='link-color' eventKey="fai" title="OpenAI Gym LunarLander">
-            {content('OpenAI Gym LunarLander using Reinforcement Learning', lunarlander, 'https://github.com/', '',
+            {content('OpenAI Gym LunarLander using Reinforcement Learning', lunarlander, 'https://github.com/vinay-sj/Lunar-Lander', '',
               ['Devised an agent in Python to solve the OpenAI Gym LunarLander game by implementing Q-Learning and Approximate Q-Learning algorithms', 'Trained a Neural Network with two hidden layers using TensorFlow and solved LunarLander game using Policy Gradient algorithm',
                 'Analyzed and documented agent’s performance by varying hyperparameters Alpha and Epsilon'], 'right')}
           </Tab>
