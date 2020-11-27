@@ -1,5 +1,5 @@
 import React from 'react';
-import {Tab, Tabs, TabPane, Container, Col, Row} from "react-bootstrap";
+import {Tab, Tabs, Container, Col, Row} from "react-bootstrap";
 import flightbooking from '../files/flightbooking.png';
 import issuetracker from '../files/issuetracker.png';
 import objectperception from '../files/objectperception.jpg';
@@ -46,7 +46,7 @@ function content(name, img, githubLink, extLink, detailList, dir) {
     if (dir === 'left') {
       return (
         <>
-          <Col lg={6}><img className='project-img' src={img} /></Col>
+          <Col lg={6}><img className='project-img' src={img} alt='' /></Col>
           <Col lg={6} className="my-auto">
             <ul className='project-content'>
               {details(detailList)}
@@ -66,7 +66,7 @@ function content(name, img, githubLink, extLink, detailList, dir) {
             {linksinpage(githubLink, faGithub)}
             {linksinpage(extLink, faExternalLinkAlt)}
           </Col>
-          <Col lg={6} className='order-1 order-md-1 order-lg-2 order-xl-2 my-auto'><img className='project-img' src={img}/></Col>
+          <Col lg={6} className='order-1 order-md-1 order-lg-2 order-xl-2 my-auto'><img className='project-img' src={img} alt=''/></Col>
         </>
       )
     }

@@ -10,7 +10,7 @@ export default class Footer extends React.Component {
         <p className="footer">Built using React.Js by Vinay Srampickal Joseph.</p>
         <a
           className="github"
-          href="https://github.com/"
+          href="https://github.com/vinay-sj/Portfolio"
           target="_blank"
           rel="noopener noreferrer"
         >

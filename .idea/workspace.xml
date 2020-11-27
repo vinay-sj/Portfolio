@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cf2d1f05-c056-4a3f-8d18-55abd17182c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,15 +42,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\vinay\OneDrive - Northeastern University\Desktop\Personal Webpage\portfolio\src" />
-      <recent name="C:\Users\vinay\OneDrive - Northeastern University\Desktop\Personal Webpage\portfolio\src\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vinay\OneDrive - Northeastern University\Desktop\Personal Webpage\portfolio\src\files" />
       <recent name="C:\Users\vinay\OneDrive - Northeastern University\Desktop\Personal Webpage\portfolio\public" />
       <recent name="C:\Users\vinay\OneDrive - Northeastern University\Desktop\Personal Webpage\portfolio\src\img" />
       <recent name="C:\Users\vinay\OneDrive - Northeastern University\Desktop\Personal Webpage\portfolio\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vinay\OneDrive - Northeastern University\Desktop\Personal Webpage\portfolio\src" />
+      <recent name="C:\Users\vinay\OneDrive - Northeastern University\Desktop\Personal Webpage\portfolio\src\img" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.NavBar.js">
@@ -80,7 +82,12 @@
       <workItem from="1604679278554" duration="21815000" />
       <workItem from="1604767593388" duration="875000" />
       <workItem from="1604774718782" duration="228000" />
-      <workItem from="1604849403161" duration="677000" />
+      <workItem from="1604849403161" duration="1174000" />
+      <workItem from="1605138984839" duration="204000" />
+      <workItem from="1605286653693" duration="1176000" />
+      <workItem from="1605312857546" duration="1021000" />
+      <workItem from="1605377507105" duration="10000" />
+      <workItem from="1606494797737" duration="1459000" />
     </task>
     <servers />
   </component>
@@ -92,6 +99,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2560" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604677581225" />
+    <state x="-1180" y="277" key="FileChooserDialogImpl" timestamp="1605139188781">
+      <screen x="-1920" y="2" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="277" key="FileChooserDialogImpl/0.0.1536.824/-1920.2.1920.1040@-1920.2.1920.1040" timestamp="1605139188781" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1604601688660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
