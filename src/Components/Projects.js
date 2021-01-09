@@ -8,6 +8,7 @@ import imageprocess from '../files/imageprocess.jpg';
 import lunarlander from '../files/lunarlander.png';
 import smartcart from '../files/smartcart.jpeg';
 import suntracking from '../files/suntracking.png';
+import plagewatch from '../files/plagewatch.png';
 import './../css/Project.css'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
@@ -86,7 +87,13 @@ class Projects extends React.Component {
     return (
       <div className='spacing container' id='projects'>
         <h1>My Projects</h1>
-        <Tabs defaultActiveKey="webdevproject" id="uncontrolled-tab-example" className='mt-5'>
+
+        <Tabs defaultActiveKey="fse" id="uncontrolled-tab-example" className='mt-5'>
+          <Tab tabClassName='link-color' eventKey="fse" title="PlageWatch">
+            {content('PlageWatch', plagewatch, 'https://github.com/vinay-sj/PlageWatch', 'http://plagewatch.netlify.app',
+              ['Developed a web application that detects plagiarism between two JavaScript programs and allows users to compare similarities in the code.',
+                'Designed an algorithm to identify strategies to avoid detection such as renaming variables, extracting code into functions, moving code, changing comments using Abstract Syntax Trees(AST).'], 'right')}
+          </Tab>
           <Tab tabClassName='link-color' eventKey="webdevproject" title="Just Dream Flight Booking">
             {content('Just Dream Flight Booking', flightbooking, 'https://github.com/vinay-sj/Flight-Booking-UI', 'https://avengers-flightbooking-ui.herokuapp.com/',
               ['Created a Single Page Web Application using the MERN stack that provides a platform to book flight tickets and implemented all the CRUD operations on bookings and passenger details',
