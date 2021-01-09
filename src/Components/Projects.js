@@ -47,7 +47,7 @@ function content(name, img, githubLink, extLink, detailList, dir) {
     if (dir === 'left') {
       return (
         <>
-          <Col lg={6}><img className='project-img' src={img} alt='' /></Col>
+          <Col lg={6}><img className='project-img' src={img} alt=''/></Col>
           <Col lg={6} className="my-auto">
             <ul className='project-content'>
               {details(detailList)}
@@ -67,7 +67,8 @@ function content(name, img, githubLink, extLink, detailList, dir) {
             {linksinpage(githubLink, faGithub)}
             {linksinpage(extLink, faExternalLinkAlt)}
           </Col>
-          <Col lg={6} className='order-1 order-md-1 order-lg-2 order-xl-2 my-auto'><img className='project-img' src={img} alt=''/></Col>
+          <Col lg={6} className='order-1 order-md-1 order-lg-2 order-xl-2 my-auto'><img className='project-img'
+                                                                                        src={img} alt=''/></Col>
         </>
       )
     }
@@ -88,7 +89,7 @@ class Projects extends React.Component {
       <div className='spacing container' id='projects'>
         <h1>My Projects</h1>
 
-        <Tabs defaultActiveKey="fse" id="uncontrolled-tab-example" className='mt-5'>
+        <Tabs defaultActiveKey="fse" id="project-tab" className='mt-5'>
           <Tab tabClassName='link-color' eventKey="fse" title="PlageWatch">
             {content('PlageWatch', plagewatch, 'https://github.com/vinay-sj/PlageWatch', 'http://plagewatch.netlify.app',
               ['Developed a web application that detects plagiarism between two JavaScript programs and allows users to compare similarities in the code.',

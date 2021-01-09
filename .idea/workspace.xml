@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf2d1f05-c056-4a3f-8d18-55abd17182c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/files/plagewatch.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
     </list>
@@ -93,7 +92,8 @@
       <workItem from="1606600308056" duration="46000" />
       <workItem from="1608123264903" duration="996000" />
       <workItem from="1609101296133" duration="139000" />
-      <workItem from="1610177153114" duration="707000" />
+      <workItem from="1610177153114" duration="1297000" />
+      <workItem from="1610207538174" duration="307000" />
     </task>
     <servers />
   </component>
