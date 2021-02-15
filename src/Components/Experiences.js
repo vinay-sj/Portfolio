@@ -25,12 +25,10 @@ class Experiences extends React.Component {
                     <li>
                       Developed REST APIs to work with backend infrastructure
                     </li>
-
                   </ul>
                 </li>
                 <li>
                   <Row>
-                    {/*<>*/}
                       <Col md={8}>
                   <h4 className='text-left'>Software Engineer Intern <span className='company-name'>@Vistan Health</span></h4>
                       </Col>
