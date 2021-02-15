@@ -1,9 +1,7 @@
-import React from 'react';
+import React, {useEffect, useState} from "react";
 import {
-    // Tab, Tabs,
     Container, Col, Row
 } from "react-bootstrap";
-
 import './../css/Project.css'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
@@ -11,8 +9,6 @@ import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import PropTypes from 'prop-types';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
 import AppBar from '@material-ui/core/AppBar';
 
 import json from "../files/json/projects.json"
@@ -46,7 +42,6 @@ function content(name, img, githubLink, extLink, detailList, dir) {
             )
         }
     }
-    // const openLink = (link)
     const direction = (dir) => {
         if (dir === 'left') {
             return (
@@ -104,38 +99,29 @@ function TabPanel(props) {
     );
 }
 
+function Projects() {
+    const [tabValue, setTabValue] = useState(0);
+    const projects = JSON.parse(JSON.stringify(json));
+    let projectKeys = Object.keys(projects);
 
-class Projects extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            tabValue: 0,
-            projects: JSON.parse(JSON.stringify(json)),
-            projectKeys: [],
-        }
-        this.handleChange = this.handleChange.bind(this);
-    }
+    useEffect(() => {
+        projectKeys = Object.keys(projects);
+    }, [])
 
-    componentDidMount() {
-        const {projects} = this.state;
-        this.setState({projectKeys: Object.keys(projects)});
-    }
-
-    handleChange = (event, newValue) => {
-        this.setState({tabValue: newValue});
+    const handleChange = (event, newValue) => {
+        setTabValue(newValue);
     };
-    a11yProps = (index) => {
+
+    const a11yProps = (index) => {
         return {
             id: `simple-tab-${index}`,
             'aria-controls': `simple-tabpanel-${index}`,
         };
     }
-    getProjectTabs = () => {
-        const {projectKeys} = this.state;
-        return projectKeys.map((projectKey, id) => <Tab key={id} label={projectKey} {...this.a11yProps(id)} />)
+    const getProjectTabs = () => {
+        return projectKeys.map((projectKey, id) => <Tab key={id} label={projectKey} {...a11yProps(id)} />)
     }
-    getProjectContent = () => {
-        const {tabValue, projects, projectKeys} = this.state;
+    const getProjectContent = () => {
         return projectKeys.map((projectKey, id) => {
             const projectData = projects[projectKey];
 
@@ -146,29 +132,23 @@ class Projects extends React.Component {
         })
     }
 
-    render() {
-        const {tabValue} = this.state;
-        return (
-            <div className='spacing container' id='projects'>
-                <h1>My Projects</h1>
-                <AppBar position="static" color="default">
-                    <Tabs
-                        value={tabValue}
-                        onChange={this.handleChange}
-                        variant="scrollable"
-                        scrollButtons="on"
-                        indicatorColor="primary"
-                        textColor="primary"
-                        aria-label="scrollable force tabs example"
-                    >
-                        {this.getProjectTabs()}
-                    </Tabs>
-                </AppBar>
-                {this.getProjectContent()}
-            </div>
-        );
-    }
+    return (
+        <div className='spacing container' id='projects'>
+            <h1>My Projects</h1>
+            <AppBar position="static" color={"transparent"} >
+                <Tabs
+                    value={tabValue}
+                    onChange={handleChange}
+                    variant="scrollable"
+                    scrollButtons="auto"
+                    aria-label="scrollable project tabs"
+                >
+                    {getProjectTabs()}
+                </Tabs>
+            </AppBar>
+            {getProjectContent()}
+        </div>
+    );
 }
-
 
 export default Projects;
