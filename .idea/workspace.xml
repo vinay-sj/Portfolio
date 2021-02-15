@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cf2d1f05-c056-4a3f-8d18-55abd17182c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Experiences.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Experiences.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/Vinay_Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/Vinay_Resume.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -93,7 +95,9 @@
       <workItem from="1608123264903" duration="996000" />
       <workItem from="1609101296133" duration="139000" />
       <workItem from="1610177153114" duration="1297000" />
-      <workItem from="1610207538174" duration="307000" />
+      <workItem from="1610207538174" duration="1164000" />
+      <workItem from="1613420281109" duration="571000" />
+      <workItem from="1613420864893" duration="1225000" />
     </task>
     <servers />
   </component>

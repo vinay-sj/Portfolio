@@ -11,6 +11,26 @@ class Experiences extends React.Component {
                 <li>
                   <Row>
                     {/*<>*/}
+                    <Col md={8}>
+                      <h4 className='text-left'>Front-End Developer Intern <span className='company-name'>@QuantUniversity</span></h4>
+                    </Col>
+                    <Col md={4}>
+                      <div className="text-left text-md-right text-lg-right text-xl-right">January, 2021 - Present</div>
+                    </Col>
+                  </Row>
+                  <ul className='text-left'>
+                    <li>
+                      Building and updating websites using Javascript and Angular JS
+                    </li>
+                    <li>
+                      Developed REST APIs to work with backend infrastructure
+                    </li>
+
+                  </ul>
+                </li>
+                <li>
+                  <Row>
+                    {/*<>*/}
                       <Col md={8}>
                   <h4 className='text-left'>Software Engineer Intern <span className='company-name'>@Vistan Health</span></h4>
                       </Col>
