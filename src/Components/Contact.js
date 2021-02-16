@@ -10,8 +10,7 @@ class Contact extends React.Component {
       <div id='contact' className='spacing'>
         <h1>Contact</h1>
 
-        <p className="mt-5 mb-4">I am currently looking for Spring 2021 Internship/Coop
-          or Fulltime starting May 2021. My inbox is always open, even for just a 'Hi'.</p>
+        <p className="mt-5 mb-4">I am currently looking for Full-time opportunities starting May 2021. My inbox is always open, even for just a 'Hi'.</p>
 
         <Message message='Message Me' />
 
