@@ -30,7 +30,7 @@ function StepperContents({experiences}) {
                             <Row>
                                 <Col md={8} className="mt-2">
                                     <h4 className='text-left'>{experience.role}<span
-                                        className='company-name'>@{experience.companyName}</span>
+                                        className='company-name'> @{experience.companyName}</span>
                                     </h4>
                                 </Col>
                                 <Col md={4}>
