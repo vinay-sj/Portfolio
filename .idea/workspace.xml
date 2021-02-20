@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf2d1f05-c056-4a3f-8d18-55abd17182c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/files/cognizantIcon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/quantuniversityIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/vistanIcon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImageLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImageLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/StepperContents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StepperContents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Experience.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/files/json/experience.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/json/experience.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +117,7 @@
       <workItem from="1613452434748" duration="6192000" />
       <workItem from="1613710361101" duration="323000" />
       <workItem from="1613795242574" duration="7900000" />
-      <workItem from="1613803705396" duration="3614000" />
+      <workItem from="1613803705396" duration="4172000" />
     </task>
     <servers />
   </component>
