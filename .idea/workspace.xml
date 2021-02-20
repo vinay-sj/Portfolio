@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf2d1f05-c056-4a3f-8d18-55abd17182c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/StepperContents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/json/contact.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/json/experience.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/json/footer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Experiences.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Experiences.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ProjectContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Experience.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Message.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Message.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Project.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +66,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -110,6 +127,10 @@
       <workItem from="1610207538174" duration="1164000" />
       <workItem from="1613420281109" duration="571000" />
       <workItem from="1613420864893" duration="12416000" />
+      <workItem from="1613434642628" duration="1041000" />
+      <workItem from="1613452434748" duration="6192000" />
+      <workItem from="1613710361101" duration="323000" />
+      <workItem from="1613795242574" duration="7489000" />
     </task>
     <servers />
   </component>

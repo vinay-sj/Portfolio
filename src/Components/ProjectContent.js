@@ -1,8 +1,7 @@
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Col, Container, Row} from "react-bootstrap";
-import {faGithub} from "@fortawesome/free-brands-svg-icons";
-import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import React from "react";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 
 function ProjectContent(name, img, githubLink, extLink, detailList, dir) {
     const details = (detailList) => {
@@ -14,7 +13,7 @@ function ProjectContent(name, img, githubLink, extLink, detailList, dir) {
             })
         );
     }
-    const linksinpage = (link, faGithub) => {
+    const linksinpage = (link, icon) => {
         if (link) {
             return (
                 <a
@@ -23,7 +22,9 @@ function ProjectContent(name, img, githubLink, extLink, detailList, dir) {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FontAwesomeIcon icon={faGithub} size="2x" className='mr-4'/>
+                    {icon}
+                    {/*<GitHubIcon fontSize="medium"  className='mr-4'/>*/}
+                    {/*<FontAwesomeIcon icon={faGithub} size="2x" className='mr-4'/>*/}
                 </a>
             )
         } else {
@@ -41,8 +42,8 @@ function ProjectContent(name, img, githubLink, extLink, detailList, dir) {
                         <ul className='project-content'>
                             {details(detailList)}
                         </ul>
-                        {linksinpage(githubLink, faGithub)}
-                        {linksinpage(extLink, faExternalLinkAlt)}
+                        {linksinpage(githubLink, <GitHubIcon style={{"fontSize": "30px"}} className='mr-4'/>)}
+                        {linksinpage(extLink, <OpenInNewIcon style={{"fontSize": "37px"}} className='mr-4'/>)}
                     </Col>
                 </>
             )
@@ -53,8 +54,8 @@ function ProjectContent(name, img, githubLink, extLink, detailList, dir) {
                         <ul className='project-content'>
                             {details(detailList)}
                         </ul>
-                        {linksinpage(githubLink, faGithub)}
-                        {linksinpage(extLink, faExternalLinkAlt)}
+                        {linksinpage(githubLink, <GitHubIcon style={{"fontSize": "30px"}} className='mr-4'/>)}
+                        {linksinpage(extLink, <OpenInNewIcon style={{"fontSize": "37px"}} className='mr-4'/>)}
                     </Col>
                     <Col lg={6} className='order-1 order-md-1 order-lg-2 order-xl-2 my-auto'><img
                         className='project-img'

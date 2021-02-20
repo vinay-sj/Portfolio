@@ -6,17 +6,17 @@ import About from "./About";
 import Experiences from "./Experiences";
 
 class Body extends React.Component {
-render() {
-  return(
-    <div>
-      <Home/>
-      <About/>
-      <Experiences/>
-      <Projects/>
-      <Contact/>
-    </div>
-  );
-}
+    render() {
+        return (
+            <div>
+                <Home/>
+                <About/>
+                <Experiences/>
+                <Projects/>
+                <Contact/>
+            </div>
+        );
+    }
 }
 
 export default Body;

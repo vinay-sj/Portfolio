@@ -1,13 +1,9 @@
 import React, {useEffect, useState} from "react";
-
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
+import {Tabs, Tab} from '@material-ui/core';
 import AppBar from '@material-ui/core/AppBar';
-
 import {GetImage} from "./ImageLoader"
 import TabPanel from "./TabPanel";
 import ProjectContent from "./ProjectContent";
-
 import json from "../files/json/projects.json";
 import './../css/Project.css';
 
@@ -47,7 +43,7 @@ function Projects() {
     return (
         <div className='spacing container' id='projects'>
             <h1>My Projects</h1>
-            <AppBar position="static" color={"transparent"} >
+            <AppBar position="static" color={"transparent"}>
                 <Tabs
                     value={tabValue}
                     onChange={handleChange}
