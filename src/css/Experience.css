@@ -44,7 +44,7 @@ ul.timeline > li:before {
     background-color: inherit;
 }
 #work .MuiStepLabel-root {
-    width:99%;
+    width:100%;
 }
 /*#work .MuiStepLabel-label {*/
 /*    color: #f8f8ff;*/

@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {Tabs, Tab} from '@material-ui/core';
 import AppBar from '@material-ui/core/AppBar';
-import {GetImage} from "./ImageLoader"
+import {GetProjectImage} from "./ImageLoader"
 import TabPanel from "./TabPanel";
 import ProjectContent from "./ProjectContent";
 import json from "../files/json/projects.json";
@@ -34,7 +34,7 @@ function Projects() {
             const projectData = projects[projectKey];
 
             return <TabPanel key={id} value={tabValue} index={id}>
-                {ProjectContent(projectData.name, GetImage[projectData.image], projectData.githubLink, projectData.websiteLink,
+                {ProjectContent(projectData.name, GetProjectImage[projectData.image], projectData.githubLink, projectData.websiteLink,
                     projectData.body, projectData.imagePosition)}
             </TabPanel>
         })
