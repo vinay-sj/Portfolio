@@ -5,7 +5,7 @@ function TabPanel(props) {
 
     return (
         <div
-            role="projectpanel"
+            role="tabpanel"
             hidden={value !== index}
             id={`project-panel-${index}`}
             aria-labelledby={`project-panel-${index}`}

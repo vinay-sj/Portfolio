@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import {Tabs, Tab} from '@material-ui/core';
 import AppBar from '@material-ui/core/AppBar';
 import {GetProjectImage} from "./ImageLoader"
@@ -12,18 +12,14 @@ function Projects() {
     const projects = JSON.parse(JSON.stringify(json));
     let projectKeys = Object.keys(projects);
 
-    useEffect(() => {
-        projectKeys = Object.keys(projects);
-    }, [])
-
     const handleChange = (event, newValue) => {
         setTabValue(newValue);
     };
 
     const a11yProps = (index) => {
         return {
-            id: `simple-tab-${index}`,
-            'aria-controls': `simple-tabpanel-${index}`,
+            id: `tab-${index}`,
+            'aria-controls': `tabpanel-${index}`,
         };
     }
     const getProjectTabs = () => {
