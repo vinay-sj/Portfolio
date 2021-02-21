@@ -46,6 +46,9 @@ ul.timeline > li:before {
 #work .MuiStepLabel-root {
     width:100%;
 }
-/*#work .MuiStepLabel-label {*/
-/*    color: #f8f8ff;*/
-/*}*/
+#work .MuiStepContent-root {
+    margin-left: 20px;
+}
+#work button:focus{
+    outline: none;
+}

@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cf2d1f05-c056-4a3f-8d18-55abd17182c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TabPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TabPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StepperContents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StepperContents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Experience.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Project.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Project.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +120,7 @@
       <workItem from="1613710361101" duration="323000" />
       <workItem from="1613795242574" duration="7900000" />
       <workItem from="1613803705396" duration="4675000" />
-      <workItem from="1613861931843" duration="643000" />
+      <workItem from="1613861931843" duration="6681000" />
     </task>
     <servers />
   </component>
