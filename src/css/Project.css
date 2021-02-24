@@ -39,6 +39,12 @@
         height: 250px;
     }
 }
-#projects .PrivateTabIndicator-colorSecondary-3{
+#projects .MuiTabs-indicator{
     background-color: rgb(0,219,255)!important;
+}
+#projects button:focus {
+    outline: none;
+}
+#projects .MuiTab-textColorInherit.Mui-selected {
+    color: rgb(0,219,255);
 }

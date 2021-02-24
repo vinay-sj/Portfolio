@@ -1,13 +1,9 @@
-import React, {useEffect, useState} from "react";
-
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
+import React, {useState} from "react";
+import {Tabs, Tab} from '@material-ui/core';
 import AppBar from '@material-ui/core/AppBar';
-
-import {GetImage} from "./ImageLoader"
+import {GetProjectImage} from "./ImageLoader"
 import TabPanel from "./TabPanel";
 import ProjectContent from "./ProjectContent";
-
 import json from "../files/json/projects.json";
 import './../css/Project.css';
 
@@ -16,18 +12,14 @@ function Projects() {
     const projects = JSON.parse(JSON.stringify(json));
     let projectKeys = Object.keys(projects);
 
-    useEffect(() => {
-        projectKeys = Object.keys(projects);
-    }, [])
-
     const handleChange = (event, newValue) => {
         setTabValue(newValue);
     };
 
     const a11yProps = (index) => {
         return {
-            id: `simple-tab-${index}`,
-            'aria-controls': `simple-tabpanel-${index}`,
+            id: `tab-${index}`,
+            'aria-controls': `tabpanel-${index}`,
         };
     }
     const getProjectTabs = () => {
@@ -38,7 +30,7 @@ function Projects() {
             const projectData = projects[projectKey];
 
             return <TabPanel key={id} value={tabValue} index={id}>
-                {ProjectContent(projectData.name, GetImage[projectData.image], projectData.githubLink, projectData.websiteLink,
+                {ProjectContent(projectData.name, GetProjectImage[projectData.image], projectData.githubLink, projectData.websiteLink,
                     projectData.body, projectData.imagePosition)}
             </TabPanel>
         })
@@ -47,7 +39,7 @@ function Projects() {
     return (
         <div className='spacing container' id='projects'>
             <h1>My Projects</h1>
-            <AppBar position="static" color={"transparent"} >
+            <AppBar position="static" color={"transparent"}>
                 <Tabs
                     value={tabValue}
                     onChange={handleChange}

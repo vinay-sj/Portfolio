@@ -1,0 +1,40 @@
+{
+  "QuantUniversity": {
+    "companyName": "QuantUniversity",
+    "role": "Front-End Developer Intern",
+    "startDate": "January, 2021",
+    "endDate": "Present",
+    "location": "Boston, MA.",
+    "data": [
+      "Building and updating websites using Javascript and Angular JS",
+      "Developed REST APIs to work with backend infrastructure"
+    ],
+    "logo": "QuantUniversityIcon"
+  },
+  "VistanHealth": {
+    "companyName": "Vistan Health",
+    "role": "Software Engineer Intern",
+    "startDate": "May, 2020",
+    "endDate": "August, 2020",
+    "location": "Boston, MA.",
+    "data": [
+      "Contributed as a Full Stack Developer to develop a web application for Physicians to monitor Patients. Built authentication module to secure backend APIs using Cognito",
+      "Created a chatbot using Amazon Lex that can help patients resolve health queries and connect with physicians. Wrote and reviewed code in 2 languages JavaScript and Python",
+      "Represented Vistan Health at the MIT COVID-19 Challenge and the Crisis Challenge Innovation Competition"
+    ],
+    "logo": "VistanHealthIcon"
+  },
+  "Cognizant": {
+    "companyName": "Cognizant Technology Solutions",
+    "role": "Software Engineer",
+    "startDate": "January, 2017",
+    "endDate": "August, 2019",
+    "location": "Bangalore, India",
+    "data": [
+      "Developed automated claim processing tool using Java and Selenium, which expedited processing of claims by 10%",
+      "Built a production tool to generate complex queries using VBA to help associates without knowledge in SQL to retrieve details from database on to an Excel sheet",
+      "Led the R&D team to find a solution in automating the web-based screens inside windows-based FACETS by integrating Winium and Sikuli to Cognizant’s CRAFT framework to achieve 100% automation"
+    ],
+    "logo": "CognizantIcon"
+  }
+}

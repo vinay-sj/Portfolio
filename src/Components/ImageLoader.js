@@ -7,16 +7,25 @@ import lunarlander from '../files/lunarlander.png';
 import smartcart from '../files/smartcart.jpeg';
 import suntracking from '../files/suntracking.png';
 import plagewatch from '../files/plagewatch.png';
+import cognizant from "../files/cognizantIcon.ico";
+import vistan from "../files/vistanIcon.png";
+import quantuniversity from "../files/quantuniversityIcon.png";
 
-const GetImage ={
-    flightbooking:flightbooking,
-    issuetracker:issuetracker,
-    objectperception:objectperception,
-    duckiedrone:duckiedrone,
-    imageprocess:imageprocess,
-    lunarlander:lunarlander,
-    smartcart:smartcart,
-    suntracking:suntracking,
-    plagewatch:plagewatch
+const GetProjectImage = {
+    flightbooking: flightbooking,
+    issuetracker: issuetracker,
+    objectperception: objectperception,
+    duckiedrone: duckiedrone,
+    imageprocess: imageprocess,
+    lunarlander: lunarlander,
+    smartcart: smartcart,
+    suntracking: suntracking,
+    plagewatch: plagewatch
 }
-export {GetImage};
+
+const GetExperienceImage = {
+    CognizantIcon: cognizant,
+    VistanHealthIcon: vistan,
+    QuantUniversityIcon: quantuniversity
+}
+export {GetProjectImage, GetExperienceImage};

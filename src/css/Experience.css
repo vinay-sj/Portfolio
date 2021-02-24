@@ -33,3 +33,22 @@ ul.timeline > li:before {
     color: rgb(0,219,255);
 }
 
+/*.test {*/
+/*    color:red;*/
+/*    background-color: pink;*/
+/*}*/
+.MuiPaper-root div.MuiCollapse-wrapperInner, #work .MuiStepLabel-label  {
+    color: #f8f8ff;
+}
+#work .MuiPaper-root {
+    background-color: inherit;
+}
+#work .MuiStepLabel-root {
+    width:100%;
+}
+#work .MuiStepContent-root {
+    margin-left: 20px;
+}
+#work button:focus{
+    outline: none;
+}
