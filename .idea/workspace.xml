@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf2d1f05-c056-4a3f-8d18-55abd17182c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/website.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/StepperContents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StepperContents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +65,11 @@
       <recent name="C:\Users\vinay\OneDrive - Northeastern University\Desktop\Personal Webpage\portfolio\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\D Drive\Projects\Personal Webpage\portfolio\public" />
       <recent name="C:\D Drive\Projects\Personal Webpage\portfolio\src\files" />
       <recent name="C:\D Drive\Projects\Personal Webpage\portfolio\src\files\json" />
       <recent name="C:\Users\vinay\OneDrive - Northeastern University\Desktop\Personal Webpage\portfolio\src\files" />
       <recent name="C:\Users\vinay\OneDrive - Northeastern University\Desktop\Personal Webpage\portfolio\src" />
-      <recent name="C:\Users\vinay\OneDrive - Northeastern University\Desktop\Personal Webpage\portfolio\src\img" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.NavBar.js">
@@ -120,6 +123,8 @@
       <workItem from="1613803705396" duration="4675000" />
       <workItem from="1613861931843" duration="6863000" />
       <workItem from="1614126233191" duration="310000" />
+      <workItem from="1614127569684" duration="1368000" />
+      <workItem from="1614231577727" duration="2098000" />
     </task>
     <servers />
   </component>
