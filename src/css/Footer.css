@@ -7,9 +7,7 @@
 .github {
     color: white;
 }
-.fa-github:hover {
-    transform: scale(1.1);
-}
+
 .App a:hover {
     color: rgb(0,219,255);
     text-decoration: none;

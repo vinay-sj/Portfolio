@@ -19,3 +19,6 @@ font-size: 15px;
 /*div{*/
 /*    overflow: hidden!important;*/
 /*}*/
+a.github svg:hover{
+transform: scale(1.1);
+}
