@@ -11,20 +11,20 @@
     ],
     "logo": "QuantUniversityIcon"
   },
-  "IAITS": {
+  "itsIA": {
     "companyName": "Northeastern University",
     "role": "Instructional Assistant",
     "startDate": "September, 2020",
     "endDate": "January, 2021",
     "location": "Boston, MA.",
     "data": [
-      "Assisted faculty with classroom technology and facilitating interactions with remote learners",
-      "Maintained the computers and audio visual equipment in the NUFlex classrooms across campus",
-      "Operated and troubleshooted new technologies in the classrooms"
+      "Assisted faculty with classroom technologies and facilitating interactions with remote learners",
+      "Maintained the computers and audiovisual equipment in the NUFlex classrooms across campus",
+      "Operated and troubleshot new technologies in the classrooms"
     ],
     "logo": "NortheasternIcon"
   },
-  "IAKhoury": {
+  "KhouryIA": {
     "companyName": "Khoury College of Computer Science",
     "role": "Instructional Assistant",
     "startDate": "September, 2020",
@@ -32,7 +32,7 @@
     "location": "Boston, MA.",
     "data": [
       "Ensured smooth NUFlex instruction for both instructors and students by providing technical support in the classroom",
-      "Handled streaming, lecture recording and posting of NUFlex courses"
+      "Handled streaming, lecture recording, and posting of NUFlex courses"
     ],
     "logo": "NortheasternIcon"
   },
