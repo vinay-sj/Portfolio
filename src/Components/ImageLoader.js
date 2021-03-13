@@ -9,6 +9,7 @@ import suntracking from '../files/suntracking.png';
 import plagewatch from '../files/plagewatch.png';
 import cognizant from "../files/cognizantIcon.ico";
 import vistan from "../files/vistanIcon.png";
+import northeastern from "../files/northeastern.ico";
 import quantuniversity from "../files/quantuniversityIcon.png";
 
 const GetProjectImage = {
@@ -20,12 +21,13 @@ const GetProjectImage = {
     lunarlander: lunarlander,
     smartcart: smartcart,
     suntracking: suntracking,
-    plagewatch: plagewatch
+    plagewatch: plagewatch,
 }
 
 const GetExperienceImage = {
     CognizantIcon: cognizant,
     VistanHealthIcon: vistan,
-    QuantUniversityIcon: quantuniversity
+    QuantUniversityIcon: quantuniversity,
+    NortheasternIcon: northeastern,
 }
 export {GetProjectImage, GetExperienceImage};
