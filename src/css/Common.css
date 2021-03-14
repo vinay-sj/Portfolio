@@ -1,6 +1,6 @@
-img:hover{
-    transform: scale(1.1);
-}
+/*img:hover{*/
+/*    transform: scale(1.1);*/
+/*}*/
 
 .spacing{
     padding-top: 200px;
@@ -8,7 +8,9 @@ img:hover{
 .App .spacing a{
     text-decoration: none;
 }
-
+a{
+    text-decoration: none;
+}
 .link-color{
     color: white;
 }
