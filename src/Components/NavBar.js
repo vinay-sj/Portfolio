@@ -3,7 +3,7 @@ import pdf from '../files/Vinay_Resume.pdf'
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
 
 import {useState} from 'react';
-import {AppBar, Button, IconButton, Menu, MenuItem, Toolbar} from "@material-ui/core";
+import {AppBar, Box, Button, Container, IconButton, Menu, MenuItem, Toolbar} from "@material-ui/core";
 import {fade, makeStyles} from "@material-ui/core/styles";
 import MenuIcon from '@material-ui/icons/Menu';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
@@ -69,8 +69,8 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     menuButtons: {
-        "justify-content":"center",
-    margin:"auto",
+        "justify-content": "center",
+        margin: "auto",
         color: theme.palette.primary,
         '&:hover': {
             color: theme.palette.secondary.main,
@@ -83,12 +83,10 @@ const useStyles = makeStyles((theme) => ({
 
 export default function NavBar(props) {
     const classes = useStyles();
-    const [anchorEl, setAnchorEl] = useState(null);
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState(null);
-
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
-    const handleSwitchMode = ()=>{
+    const handleSwitchMode = () => {
         props.setLightMode(!props.lightMode);
     }
 
@@ -99,7 +97,7 @@ export default function NavBar(props) {
     const handleMobileMenuOpen = (event) => {
         setMobileMoreAnchorEl(event.currentTarget);
     };
-    const mobileMenuId= 'primary-search-account-menu-mobile';
+    const mobileMenuId = 'primary-search-account-menu-mobile';
     const renderMobileMenu = (
         <Menu
             anchorEl={mobileMoreAnchorEl}
@@ -140,76 +138,79 @@ export default function NavBar(props) {
             </MenuItem>
 
             <MenuItem>
-            <IconButton
-                aria-label="switch mode"
-                onClick={handleSwitchMode}
-                color="inherit"
-                className={classes.menuButtons}
+                <IconButton
+                    aria-label="switch mode"
+                    onClick={handleSwitchMode}
+                    color="inherit"
+                    className={classes.menuButtons}
 
-            >
-                {props.lightMode && <Brightness7Icon/>}
-                {!props.lightMode && <Brightness4Icon/>}
-            </IconButton>
-        </MenuItem>
+                >
+                    {props.lightMode && <Brightness7Icon/>}
+                    {!props.lightMode && <Brightness4Icon/>}
+                </IconButton>
+            </MenuItem>
         </Menu>
     );
 
     return (
         <div className={classes.grow}>
             <AppBar position="fixed" color='inherit'>
-                <Toolbar>
-                    <Button
-                        edge="start"
-                        className={classes.logo}
-                        color="inherit"
-                        aria-label="open drawer"
-                    >
-                        <img className={classes.logoImg} width='100%' height='100%' src={logo} alt='Logo'/>
-                    </Button>
+                <Container maxWidth='xl'>
+                    <Toolbar>
+                        <Button
+                            edge="start"
+                            className={classes.logo}
+                            color="inherit"
+                            aria-label="open drawer"
+                        >
+                            <img className={classes.logoImg} width='100%' height='100%' src={logo} alt='Logo'/>
+                        </Button>
 
-                    <div className={classes.grow}/>
-                    <div className={classes.sectionDesktop}>
-                        <Button href="#about" aria-label="link to about section" className={classes.navButtons}>
-                            About
-                        </Button>
-                        <Button href="#work" aria-label="link to experience section" className={classes.navButtons}>
-                            Experiences
-                        </Button>
-                        <Button href="#projects" aria-label="link to projects section" className={classes.navButtons}>
-                            Projects
-                        </Button>
-                        <Button href="#contact" aria-label="link to contact section" className={classes.navButtons}>
-                            Contact
-                        </Button>
-                        <Button aria-labelledby="hi"
-                                href={pdf}
-                                target='_blank'
-                                rel="noopener noreferrer"
-                                aria-label="link to download resume" className={classes.navButtons}>
-                            <CloudDownloadIcon className="mr-1"/>Resume
-                        </Button>
-                        <IconButton
-                            aria-label="switch mode"
-                            onClick={handleSwitchMode}
-                            color="inherit"
-                            className={classes.navButtons}
-                        >
-                            {props.lightMode && <Brightness7Icon/>}
-                            {!props.lightMode && <Brightness4Icon/>}
-                        </IconButton>
-                    </div>
-                    <div className={classes.sectionMobile}>
-                        <IconButton
-                            aria-label="show more"
-                            aria-controls={mobileMenuId}
-                            aria-haspopup="true"
-                            onClick={handleMobileMenuOpen}
-                            color="inherit"
-                        >
-                            <MenuIcon/>
-                        </IconButton>
-                    </div>
-                </Toolbar>
+                        <div className={classes.grow}/>
+                        <div className={classes.sectionDesktop}>
+                            <Button href="#about" aria-label="link to about section" className={classes.navButtons}>
+                                About
+                            </Button>
+                            <Button href="#work" aria-label="link to experience section" className={classes.navButtons}>
+                                Experiences
+                            </Button>
+                            <Button href="#projects" aria-label="link to projects section"
+                                    className={classes.navButtons}>
+                                Projects
+                            </Button>
+                            <Button href="#contact" aria-label="link to contact section" className={classes.navButtons}>
+                                Contact
+                            </Button>
+                            <Button aria-labelledby="hi"
+                                    href={pdf}
+                                    target='_blank'
+                                    rel="noopener noreferrer"
+                                    aria-label="link to download resume" className={classes.navButtons}>
+                                <Box mr={0.5}><CloudDownloadIcon /></Box>Resume
+                            </Button>
+                            <IconButton
+                                aria-label="switch mode"
+                                onClick={handleSwitchMode}
+                                color="inherit"
+                                className={classes.navButtons}
+                            >
+                                {props.lightMode && <Brightness7Icon/>}
+                                {!props.lightMode && <Brightness4Icon/>}
+                            </IconButton>
+                        </div>
+                        <div className={classes.sectionMobile}>
+                            <IconButton
+                                aria-label="show more"
+                                aria-controls={mobileMenuId}
+                                aria-haspopup="true"
+                                onClick={handleMobileMenuOpen}
+                                color="inherit"
+                            >
+                                <MenuIcon/>
+                            </IconButton>
+                        </div>
+                    </Toolbar>
+                </Container>
             </AppBar>
             {renderMobileMenu}
             <Toolbar/>

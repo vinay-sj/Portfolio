@@ -1,9 +1,12 @@
 import {createMuiTheme} from "@material-ui/core/styles";
 
 const appTheme = (lightMode) => {
+    const options={
+// spacing: 8,
+    }
 
     if (lightMode) {
-        return createMuiTheme({
+        return createMuiTheme({...options,
             palette: {
                 type: 'light',
                 primary: {
@@ -18,11 +21,14 @@ const appTheme = (lightMode) => {
                 },
                 action:{
                     hover: 'rgb(0,219,255)'
-                }
+                },
+
+
             }
         })
     } else {
         return createMuiTheme({
+            ...options,
             palette: {
                 type: 'dark',
                 primary: {
@@ -37,7 +43,7 @@ const appTheme = (lightMode) => {
                 },
                 action:{
                     hover: 'rgb(0,219,255)'
-                }
+                },
             },
         })
     }

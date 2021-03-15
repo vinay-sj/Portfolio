@@ -1,27 +1,57 @@
 import React from 'react';
-import './../css/Home.css'
+// import './../css/Home.css'
 import Message from "./Message";
+import Typography from '@material-ui/core/Typography';
+import {makeStyles} from '@material-ui/core/styles';
+import {Container, Grid} from "@material-ui/core";
 
-class Home extends React.Component {
-    render() {
-        return (
-            <div id='home' className='container'>
-                <div className='spacing home-text'>
-                    <h3 className='home-hi'>Hi, my name is</h3>
-                    <h1 className='home-name mt-4'>Vinay Srampickal Joseph.</h1>
-                    <h2 className='home-role mt-4'>Full Stack Developer.</h2>
-                    <h6 className='home-desc col-md-8 mt-4'>I am a Master of Science in Computer Science (MSCS)
-                        candidate at Northeastern
-                        University, Boston. I am a fun-loving person who loves to push limits and explore my potential.
-                        I love to
-                        learn new things, and this keeps me interested in learning new languages and technologies.</h6>
-                    <div className='mt-4'>
-                        <Message message='Get in Touch'/>
-                    </div>
-                </div>
-            </div>
-        );
+const useStyles = makeStyles((theme) => ({
+    homeText: {
+        'text-align': "left",
+    },
+    hi: {
+        color: theme.palette.secondary.main,
+    },
+    name: {
+        color: theme.palette.primary,
+    },
+    role: {
+        color: theme.palette.primary,
+    },
+    description: {
+        color: theme.palette.primary,
     }
+
+}));
+
+function Home() {
+    const classes = useStyles();
+    return (
+        <div>
+            <Container maxWidth='lg' id='home' className={classes.homeText}>
+
+                <Typography variant="h4" gutterBottom className={classes.hi}>
+                    Hi, my name is
+                </Typography>
+                <Typography variant="h1" gutterBottom className={classes.name}>
+                    Vinay Srampickal Joseph.
+                </Typography>
+                <Typography variant="h3" gutterBottom className={classes.role}>
+                    Full Stack Developer.
+                </Typography>
+                <Typography variant="h6" gutterBottom className={classes.description}>
+                    I am a Master of Science in Computer Science (MSCS) candidate at Northeastern University,
+                    Boston. I
+                    am a fun-loving person who loves to push limits and explore my potential. I love to learn new
+                    things, and this keeps me interested in learning new languages and technologies.
+                </Typography>
+                <div>
+                    <Message message='Get in Touch'/>
+                </div>
+            </Container>
+        </div>
+
+    );
 }
 
 export default Home;
