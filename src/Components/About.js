@@ -1,7 +1,5 @@
 import React from "react";
 import profile from './../files/Vinay.jpg'
-import './../css/Common.css'
-import './../css/About.css'
 import Typography from "@material-ui/core/Typography";
 
 import {makeStyles} from '@material-ui/core/styles';
@@ -30,6 +28,20 @@ const useStyles = makeStyles((theme) => ({
                 order: 2,
             },
         },
+    photo:{
+        height: "200px",
+        "margin-top": "20px",
+'margin-bottom': "20px",
+        [theme.breakpoints.down('sm')]: {
+            height: "300px"
+        },
+        [theme.breakpoints.only('md')]: {
+            height: "200px"
+        },
+        [theme.breakpoints.up('lg')]: {
+            height: "300px"
+        },
+    }
     })
 )
 
@@ -37,7 +49,7 @@ function About() {
     const classes = useStyles();
     return (
         <Container maxWidth="xl" className={classes.sectionSpace} id='about'>
-            <Typography variant="h3" gutterBottom className={classes.alignCenter}>
+            <Typography variant="h2" gutterBottom className={classes.alignCenter}>
                 About Me
             </Typography>
             <Grid container className={classes.headingSpace}>
@@ -80,7 +92,7 @@ function About() {
                     </List>
                 </Grid>
                 <Grid item md={6} order={1} className={classes.item2}>
-                    <img className='photo' src={profile} alt='profile'/>
+                    <img className={classes.photo} src={profile} alt='profile'/>
                 </Grid>
             </Grid>
         </Container>
