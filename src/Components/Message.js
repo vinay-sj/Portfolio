@@ -14,7 +14,6 @@ const useStyles = makeStyles((theme) => ({
             outline: "none"
         },
     }
-
 }));
 
 function Message(props) {

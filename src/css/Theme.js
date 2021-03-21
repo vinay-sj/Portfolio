@@ -1,12 +1,91 @@
 import {createMuiTheme} from "@material-ui/core/styles";
+import createBreakpoints from '@material-ui/core/styles/createBreakpoints' ;
 
+const breakpoints = createBreakpoints({})
+console.log(breakpoints)
 const appTheme = (lightMode) => {
-    const options={
-// spacing: 8,
+    const options = {
+        breakpoints: {
+            values: {
+                xs: 0,
+                sm: 576,
+                md: 768,
+                lg: 992,
+                xl: 1200,
+            },
+        },
+        sectionSpace: {
+            marginTop: "150px"
+        },
+        typography: {
+            fontSize: 13.5,
+            h1: {
+                fontWeight: 500,
+                [breakpoints.up("xs")]: {
+                    fontSize: "3rem",
+                }, [breakpoints.up("sm")]: {
+                    fontSize: "4rem",
+                },
+                [breakpoints.up("md")]: {
+                    fontSize: "5rem",
+                },
+                [breakpoints.up("lg")]: {
+                    fontSize: "6rem",
+                }, [breakpoints.up("xl")]: {
+                    fontSize: "7rem",
+                }
+            },
+            h2:{
+                [breakpoints.up("xs")]: {
+                    fontSize: "2rem",
+                }, [breakpoints.up("sm")]: {
+                    fontSize: "2rem",
+                },
+                [breakpoints.up("md")]: {
+                    fontSize: "3rem",
+                },
+                [breakpoints.up("lg")]: {
+                    fontSize: "4rem",
+                }, [breakpoints.up("xl")]: {
+                    fontSize: "5rem",
+                }
+            },
+            h3:{
+                [breakpoints.up("xs")]: {
+                    fontSize: "1.5rem",
+                }, [breakpoints.up("sm")]: {
+                    fontSize: "1.5rem",
+                },
+                [breakpoints.up("md")]: {
+                    fontSize: "2.5rem",
+                },
+                [breakpoints.up("lg")]: {
+                    fontSize: "3.5rem",
+                }, [breakpoints.up("xl")]: {
+                    fontSize: "4.5rem",
+                }
+            },
+            h4:{
+                [breakpoints.up("xs")]: {
+                    fontSize: "1.3rem",
+                }, [breakpoints.up("sm")]: {
+                    fontSize: "1.4rem",
+                },
+                [breakpoints.up("md")]: {
+                    fontSize: "1.5rem",
+                },
+                [breakpoints.up("lg")]: {
+                    fontSize: "2.5rem",
+                }, [breakpoints.up("xl")]: {
+                    fontSize: "2.5rem",
+                }
+            }
+        }
     }
 
     if (lightMode) {
-        return createMuiTheme({...options,
+        return createMuiTheme({
+            ...options,
             palette: {
                 type: 'light',
                 primary: {
@@ -19,11 +98,9 @@ const appTheme = (lightMode) => {
                     default: "#f8f8ff",
                     paper: "#f8f8ff"
                 },
-                action:{
+                action: {
                     hover: 'rgb(0,219,255)'
                 },
-
-
             }
         })
     } else {
@@ -41,7 +118,7 @@ const appTheme = (lightMode) => {
                     default: "#000",
                     paper: "#000"
                 },
-                action:{
+                action: {
                     hover: 'rgb(0,219,255)'
                 },
             },
