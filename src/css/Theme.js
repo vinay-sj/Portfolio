@@ -2,7 +2,6 @@ import {createMuiTheme} from "@material-ui/core/styles";
 import createBreakpoints from '@material-ui/core/styles/createBreakpoints' ;
 
 const breakpoints = createBreakpoints({})
-console.log(breakpoints)
 const appTheme = (lightMode) => {
     const options = {
         breakpoints: {
@@ -13,13 +12,25 @@ const appTheme = (lightMode) => {
                 lg: 992,
                 xl: 1200,
             },
-        },alignment:{
-            center:{
-    "text-align": "center"
+        }, alignment: {
+            horizontalCenter: {
+                "text-align": "center"
+            },
+            horizontalMarginCenter:{
+                marginLeft:"auto",
+                marginRight:"auto",
+            },
+            verticalMarginCenter:{
+                marginTop:"auto",
+                marginBottom:"auto",
             }
         },
-        sectionSpace: {
-            marginTop: "150px"
+        space:{
+            sectionSpace: {
+                marginTop: "150px"
+            }, headingSpace:{
+                marginTop:"20px"
+            },
         },
         typography: {
             fontSize: 13.5,

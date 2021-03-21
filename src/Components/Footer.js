@@ -1,5 +1,4 @@
 import React from "react";
-import "./../css/Footer.css";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import {makeStyles} from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
@@ -9,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
         "font-size": "12px",
         "font-family": "Calibri",
     },
-    sectionSpace: {...theme.sectionSpace, "padding-bottom": "20px"},
+    sectionSpace: {...theme.space.sectionSpace, "padding-bottom": "20px"},
     iconColor: {
         color: theme.palette.iconColor.main,
         '&:hover': {
@@ -19,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
             outline: "none"
         },
     },
-    alignCenter: theme.alignment.center,
+    alignCenter: theme.alignment.horizontalCenter,
 }));
 
 export default function Footer() {

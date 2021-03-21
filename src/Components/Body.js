@@ -10,7 +10,7 @@ class Body extends React.Component {
         return (
             <div>
                 <Home/>
-                {/*<About/>*/}
+                <About/>
                 {/*<Experiences/>*/}
                 {/*<Projects/>*/}
                 {/*<Contact/>*/}

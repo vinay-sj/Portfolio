@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     description: {
         color: theme.palette.primary,
     },
-    sectionSpace: theme.sectionSpace,
+    sectionSpace: theme.space.sectionSpace,
 }));
 
 function Home() {
