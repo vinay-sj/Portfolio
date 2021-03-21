@@ -3,11 +3,13 @@ import profile from './../files/Vinay.jpg'
 import Typography from "@material-ui/core/Typography";
 
 import {makeStyles} from '@material-ui/core/styles';
-import {Box, Container, Grid, List, ListItem} from "@material-ui/core";
+import {Container, Grid, List, ListItem} from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
         alignCenter: theme.alignment.horizontalCenter,
-        sectionSpace: theme.space.sectionSpace,
+        section: {
+            ...theme.space.sectionSpace
+        },
         aboutMe: {
             color: theme.palette.primary.main,
         },
@@ -28,27 +30,36 @@ const useStyles = makeStyles((theme) => ({
                 order: 2,
             },
         },
-    photo:{
-        height: "200px",
-        "margin-top": "20px",
-'margin-bottom': "20px",
-        [theme.breakpoints.down('sm')]: {
-            height: "300px"
-        },
-        [theme.breakpoints.only('md')]: {
-            height: "200px"
-        },
-        [theme.breakpoints.up('lg')]: {
-            height: "300px"
-        },
-    }
+        photo: {
+            height: "200px",
+            "margin-top": "20px",
+            'margin-bottom': "20px",
+            [theme.breakpoints.down('sm')]: {
+                height: "300px"
+            },
+            [theme.breakpoints.only('md')]: {
+                height: "200px"
+            },
+            [theme.breakpoints.only('lg')]: {
+                height: "300px"
+            },
+            [theme.breakpoints.up('xl')]: {
+                height: "350px"
+            },
+            transition: theme.transitions.create(["transform"], {
+                duration: theme.transitions.duration.standard
+            }),
+            '&:hover': {
+                ...theme.actions.scale,
+            }
+        }
     })
 )
 
 function About() {
     const classes = useStyles();
     return (
-        <Container maxWidth="xl" className={classes.sectionSpace} id='about'>
+        <div className={classes.section} id='about'>
             <Typography variant="h2" gutterBottom className={classes.alignCenter}>
                 About Me
             </Typography>
@@ -70,7 +81,6 @@ function About() {
                     <Typography variant="body1" paragraph className={classes.aboutMe}>
                         Technologies I am working on:
                     </Typography>
-
                     <List component='ul'>
                         <Grid container>
                             <Grid item xs={6} sm={6} md={6} lg={4}><ListItem component='li'>Java</ListItem></Grid>
@@ -95,7 +105,7 @@ function About() {
                     <img className={classes.photo} src={profile} alt='profile'/>
                 </Grid>
             </Grid>
-        </Container>
+        </div>
     );
 }
 

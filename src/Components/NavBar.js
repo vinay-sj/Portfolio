@@ -4,7 +4,7 @@ import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
 
 import {useState} from 'react';
 import {AppBar, Box, Button, Container, IconButton, Menu, MenuItem, Toolbar} from "@material-ui/core";
-import {fade, makeStyles} from "@material-ui/core/styles";
+import {makeStyles} from "@material-ui/core/styles";
 import MenuIcon from '@material-ui/icons/Menu';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import Brightness7Icon from '@material-ui/icons/Brightness7';
@@ -19,20 +19,20 @@ const useStyles = makeStyles((theme) => ({
         padding: '0px',
         "min-width": '50px',
         width: '50px',
-        '&:focus': {
-            outline: "none"
-        },
+        ...theme.style.rmOutline,
+        transition: theme.transitions.create(["transform"], {
+            duration: theme.transitions.duration.standard
+        }),
         '& img': {
             transition: theme.transitions.create(["transform"], {
                 duration: theme.transitions.duration.standard
             }),
             '&:hover': {
-                "-webkit-transform": "rotate(360deg)!important",
-                transform: "rotate(360deg)!important",
+                ...theme.actions.rotate,
             }
         },
         '&:hover': {
-            transform: "scale(1.1)"
+            ...theme.actions.scale,
         }
     },
     grow: {
@@ -60,13 +60,12 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     navButtons: {
-        color: theme.palette.primary,
+        color: theme.palette.primary.main,
         '&:hover': {
             color: theme.palette.secondary.main,
         },
-        '&:focus': {
-            outline: "none"
-        },
+        ...theme.style.rmOutline,
+
     },
     menuButtons: {
         "justify-content": "center",
@@ -75,9 +74,7 @@ const useStyles = makeStyles((theme) => ({
         '&:hover': {
             color: theme.palette.secondary.main,
         },
-        '&:focus': {
-            outline: "none"
-        },
+        ...theme.style.rmOutline,
     }
 }));
 
@@ -162,6 +159,7 @@ export default function NavBar(props) {
                             className={classes.logo}
                             color="inherit"
                             aria-label="open drawer"
+                            href="#home"
                         >
                             <img className={classes.logoImg} width='100%' height='100%' src={logo} alt='Logo'/>
                         </Button>
@@ -186,12 +184,11 @@ export default function NavBar(props) {
                                     target='_blank'
                                     rel="noopener noreferrer"
                                     aria-label="link to download resume" className={classes.navButtons}>
-                                <Box mr={0.5}><CloudDownloadIcon /></Box>Resume
+                                <Box mr={0.5}><CloudDownloadIcon/></Box>Resume
                             </Button>
                             <IconButton
                                 aria-label="switch mode"
                                 onClick={handleSwitchMode}
-                                color="inherit"
                                 className={classes.navButtons}
                             >
                                 {props.lightMode && <Brightness7Icon/>}

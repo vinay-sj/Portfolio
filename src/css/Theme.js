@@ -16,21 +16,37 @@ const appTheme = (lightMode) => {
             horizontalCenter: {
                 "text-align": "center"
             },
-            horizontalMarginCenter:{
-                marginLeft:"auto",
-                marginRight:"auto",
+            horizontalMarginCenter: {
+                marginLeft: "auto",
+                marginRight: "auto",
             },
-            verticalMarginCenter:{
-                marginTop:"auto",
-                marginBottom:"auto",
+            verticalMarginCenter: {
+                marginTop: "auto",
+                marginBottom: "auto",
             }
         },
-        space:{
+        space: {
             sectionSpace: {
                 marginTop: "150px"
-            }, headingSpace:{
-                marginTop:"20px"
+            }, headingSpace: {
+                marginTop: "20px"
             },
+        },
+        actions: {
+            rotate: {
+                "-webkit-transform": "rotate(360deg)!important",
+                transform: "rotate(360deg)!important",
+            },
+            scale: {
+                transform: "scale(1.1)"
+            },
+        },
+        style: {
+            rmOutline: {
+                '&:focus': {
+                    outline: "none"
+                },
+            }
         },
         typography: {
             fontSize: 13.5,

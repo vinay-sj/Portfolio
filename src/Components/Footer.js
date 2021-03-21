@@ -10,13 +10,16 @@ const useStyles = makeStyles((theme) => ({
     },
     sectionSpace: {...theme.space.sectionSpace, "padding-bottom": "20px"},
     iconColor: {
+        transition: theme.transitions.create(["transform"], {
+            duration: theme.transitions.duration.standard
+        }),
+        fontSize: "30px",
         color: theme.palette.iconColor.main,
         '&:hover': {
             color: theme.palette.secondary.main,
+            ...theme.actions.scale,
         },
-        '&:focus': {
-            outline: "none"
-        },
+        ...theme.style.rmOutline,
     },
     alignCenter: theme.alignment.horizontalCenter,
 }));
@@ -30,12 +33,12 @@ export default function Footer() {
                     Built using React.Js by Vinay Srampickal Joseph.
                 </Typography>
                 <a
-                    className={classes.iconColor}
+
                     href="https://github.com/vinay-sj/Portfolio"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <GitHubIcon style={{"fontSize": "30px"}}/>
+                    <GitHubIcon className={classes.iconColor}/>
                 </a>
             </div>
         </div>

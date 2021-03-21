@@ -6,13 +6,11 @@ import {makeStyles} from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
     mailMe: {
-        color: theme.palette.primary,
+        color: theme.palette.primary.main,
         '&:hover': {
             color: theme.palette.secondary.main,
         },
-        '&:focus': {
-            outline: "none"
-        },
+        ...theme.style.rmOutline,
     }
 }));
 
