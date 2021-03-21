@@ -1,8 +1,6 @@
 .footer{
-    /*color: #8892B0;*/
     font-size: 12px;
     font-family: Calibri;
-    /*color: #4b4c4d;*/
 }
 .github {
     color: white;
@@ -17,7 +15,7 @@
     text-align: center;
 }
 
-.footer-spacing{
-    margin-top: 200px;
-    padding-bottom: 20px;
-}
+/*.footer-spacing{*/
+/*    margin-top: 200px;*/
+/*    padding-bottom: 20px;*/
+/*}*/

@@ -13,6 +13,10 @@ const appTheme = (lightMode) => {
                 lg: 992,
                 xl: 1200,
             },
+        },alignment:{
+            center:{
+    "text-align": "center"
+            }
         },
         sectionSpace: {
             marginTop: "150px"
@@ -35,7 +39,7 @@ const appTheme = (lightMode) => {
                     fontSize: "7rem",
                 }
             },
-            h2:{
+            h2: {
                 [breakpoints.up("xs")]: {
                     fontSize: "2rem",
                 }, [breakpoints.up("sm")]: {
@@ -50,7 +54,7 @@ const appTheme = (lightMode) => {
                     fontSize: "5rem",
                 }
             },
-            h3:{
+            h3: {
                 [breakpoints.up("xs")]: {
                     fontSize: "1.5rem",
                 }, [breakpoints.up("sm")]: {
@@ -65,7 +69,7 @@ const appTheme = (lightMode) => {
                     fontSize: "4.5rem",
                 }
             },
-            h4:{
+            h4: {
                 [breakpoints.up("xs")]: {
                     fontSize: "1.3rem",
                 }, [breakpoints.up("sm")]: {
@@ -94,6 +98,9 @@ const appTheme = (lightMode) => {
                 secondary: {
                     main: 'rgb(0,219,255)',
                 },
+                iconColor: {
+                    main: "#000"
+                },
                 background: {
                     default: "#f8f8ff",
                     paper: "#f8f8ff"
@@ -114,6 +121,9 @@ const appTheme = (lightMode) => {
                 secondary: {
                     main: 'rgb(0,219,255)',
                 },
+                iconColor: {
+                    main: "#fff"
+                },
                 background: {
                     default: "#000",
                     paper: "#000"
@@ -121,7 +131,7 @@ const appTheme = (lightMode) => {
                 action: {
                     hover: 'rgb(0,219,255)'
                 },
-            },
+            }
         })
     }
 }

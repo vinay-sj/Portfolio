@@ -1,21 +1,44 @@
 import React from "react";
 import "./../css/Footer.css";
 import GitHubIcon from '@material-ui/icons/GitHub';
+import {makeStyles} from "@material-ui/core/styles";
+import Typography from "@material-ui/core/Typography";
 
-export default class Footer extends React.Component {
-    render() {
-        return (
-            <div className="footer-spacing foot">
-                <p className="footer">Built using React.Js by Vinay Srampickal Joseph.</p>
+const useStyles = makeStyles((theme) => ({
+    footer: {
+        "font-size": "12px",
+        "font-family": "Calibri",
+    },
+    sectionSpace: {...theme.sectionSpace, "padding-bottom": "20px"},
+    iconColor: {
+        color: theme.palette.iconColor.main,
+        '&:hover': {
+            color: theme.palette.secondary.main,
+        },
+        '&:focus': {
+            outline: "none"
+        },
+    },
+    alignCenter: theme.alignment.center,
+}));
+
+export default function Footer() {
+    const classes = useStyles();
+    return (
+        <div className={classes.sectionSpace}>
+            <div className={classes.alignCenter}>
+                <Typography variant="body2" gutterBottom className={classes.footer}>
+                    Built using React.Js by Vinay Srampickal Joseph.
+                </Typography>
                 <a
-                    className="github"
+                    className={classes.iconColor}
                     href="https://github.com/vinay-sj/Portfolio"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <GitHubIcon style={{"fontSize": "30px"}} className='mr-2'/>
+                    <GitHubIcon style={{"fontSize": "30px"}}/>
                 </a>
             </div>
-        );
-    }
+        </div>
+    );
 }

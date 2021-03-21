@@ -1,5 +1,4 @@
 import React from 'react';
-// import './../css/Home.css'
 import Message from "./Message";
 import Typography from '@material-ui/core/Typography';
 import {makeStyles} from '@material-ui/core/styles';
