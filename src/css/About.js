@@ -1,6 +1,7 @@
 const styles = (theme) => ({
     section: {
-        ...theme.space.sectionSpace
+        ...theme.space.sectionSpace,
+        ...theme.sectionHeading
     },
     aboutMe: {
         color: theme.palette.primary.main,

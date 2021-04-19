@@ -48,6 +48,16 @@ const appTheme = (lightMode) => {
                 },
             }
         },
+        sectionHeading: {
+            '&::before': {
+                display: "block",
+                content: '" "',
+                marginTop: "-100px",
+                height: "100px",
+                visibility: "hidden",
+                pointerEvents: "none"
+            }
+        }
         // typography: {
         //     fontSize: 13.5,
         //     h1: {

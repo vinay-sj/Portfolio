@@ -3,6 +3,8 @@
     text-align: center;
 }
 
+html { scroll-behavior: smooth; }
+
 .App-logo {
     height: 40vmin;
     pointer-events: none;
@@ -37,3 +39,13 @@
         transform: rotate(360deg);
     }
 }
+/*#projects{*/
+/*#projects::before {*/
+/*    display: block;*/
+/*    content: " ";*/
+/*    margin-top: -100px;*/
+/*    height: 100px;*/
+/*    visibility: hidden;*/
+/*    pointer-events: none;*/
+/*}*/
+/*}*/

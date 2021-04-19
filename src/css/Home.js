@@ -13,7 +13,8 @@ const styles = (theme) => ({
     },
     section: {
         ...theme.space.sectionSpace,
-        'text-align': "left"
+        textAlign: "left",
+        ...theme.sectionHeading
     }
 })
 
