@@ -30,7 +30,7 @@ function Home() {
                 Hi, my name is
             </Typography>
             <Typography variant="h1" gutterBottom className={classes.name}>
-                Vinay Srampickal Joseph.
+                Vinay Joseph.
             </Typography>
             <Typography variant="h3" gutterBottom className={classes.role}>
                 Full Stack Developer.

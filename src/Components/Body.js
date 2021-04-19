@@ -12,8 +12,8 @@ class Body extends React.Component {
             <Container maxWidth="xl">
                 <Home/>
                 <About/>
-                {/*<Experiences/>*/}
-                {/*<Projects/>*/}
+                <Experiences/>
+                <Projects/>
                 <Contact/>
             </Container>
         );

@@ -2,17 +2,27 @@ import React from "react";
 import './../css/Experience.css'
 import json from "../files/json/experience.json";
 import StepperContents from "./StepperContents";
+import {makeStyles} from "@material-ui/core/styles";
+import Typography from "@material-ui/core/Typography";
+
+const useStyles = makeStyles((theme) => ({
+    alignCenter: theme.alignment.horizontalCenter,
+    section: {
+        ...theme.space.sectionSpace,
+        ...theme.alignment.horizontalCenter
+    },
+    verticalCenter: theme.alignment.verticalMarginCenter,
+}));
 
 function Experiences(props) {
+    const classes = useStyles();
     const experiences = JSON.parse(JSON.stringify(json));
     return (
-        <div className='spacing' id='work'>
-            <h1>Where I've worked</h1>
-            <div className='container'>
-                <div>
-                    <StepperContents experiences={experiences}/>
-                </div>
-            </div>
+        <div className={classes.section} id='work'>
+            <Typography variant="h2" gutterBottom className={classes.alignCenter}>
+                Where I've worked
+            </Typography>
+            <StepperContents experiences={experiences}/>
         </div>
 
     );

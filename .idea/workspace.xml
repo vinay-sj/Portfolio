@@ -3,14 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="cf2d1f05-c056-4a3f-8d18-55abd17182c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Experiences.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Experiences.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/About.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ProjectContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StepperContents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StepperContents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Experience.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/Theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Theme.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +137,8 @@
       <workItem from="1616289090888" duration="174000" />
       <workItem from="1616302146835" duration="12243000" />
       <workItem from="1616337399188" duration="3597000" />
-      <workItem from="1616344882823" duration="2930000" />
+      <workItem from="1616344882823" duration="3688000" />
+      <workItem from="1618786681128" duration="5635000" />
     </task>
     <servers />
   </component>

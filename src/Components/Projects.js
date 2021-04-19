@@ -30,8 +30,8 @@ function Projects() {
             const projectData = projects[projectKey];
 
             return <TabPanel key={id} value={tabValue} index={id}>
-                {ProjectContent(projectData.name, GetProjectImage[projectData.image], projectData.githubLink, projectData.websiteLink,
-                    projectData.body, projectData.imagePosition)}
+                {/*{ProjectContent(projectData.name, GetProjectImage[projectData.image], projectData.githubLink, projectData.websiteLink,*/}
+                {/*    projectData.body, projectData.imagePosition)}*/}
             </TabPanel>
         })
     }

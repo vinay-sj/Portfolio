@@ -23,7 +23,10 @@ const appTheme = (lightMode) => {
             verticalMarginCenter: {
                 marginTop: "auto",
                 marginBottom: "auto",
-            }
+            },
+            // horizontalLeft:{
+            //     ""
+            // }
         },
         space: {
             sectionSpace: {

@@ -1,4 +1,3 @@
-// import {Col, Container, Row} from "react-bootstrap";
 // import React from "react";
 // import GitHubIcon from "@material-ui/icons/GitHub";
 // import OpenInNewIcon from '@material-ui/icons/OpenInNew';
