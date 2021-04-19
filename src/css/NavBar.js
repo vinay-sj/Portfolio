@@ -12,7 +12,7 @@ const styles = (theme) => ({
         transition: theme.transitions.create(["transform"], {
             duration: theme.transitions.duration.standard
         }),
-        '& img': {
+        '& svg': {
             transition: theme.transitions.create(["transform"], {
                 duration: theme.transitions.duration.standard
             }),
@@ -22,7 +22,8 @@ const styles = (theme) => ({
         },
         '&:hover': {
             ...theme.actions.scale,
-        }
+        },
+        fill: theme.palette.secondary.main  ,
     },
     grow: {
         flexGrow: 1,
@@ -64,6 +65,10 @@ const styles = (theme) => ({
             color: theme.palette.secondary.main,
         },
         ...theme.style.rmOutline,
+    },
+    logoColor:{
+
+        fill: theme.palette.secondary.main  ,
     }
 })
 export default styles;
