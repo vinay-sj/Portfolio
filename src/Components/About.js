@@ -6,7 +6,6 @@ import {makeStyles} from '@material-ui/core/styles';
 import {Container, Grid, List, ListItem} from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
-        alignCenter: theme.alignment.horizontalCenter,
         section: {
             ...theme.space.sectionSpace
         },
@@ -60,7 +59,7 @@ function About() {
     const classes = useStyles();
     return (
         <div className={classes.section} id='about'>
-            <Typography variant="h2" gutterBottom className={classes.alignCenter}>
+            <Typography variant="h2" gutterBottom align="center">
                 About Me
             </Typography>
             <Grid container className={classes.headingSpace}>

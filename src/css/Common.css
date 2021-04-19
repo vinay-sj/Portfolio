@@ -1,26 +1,16 @@
-img:hover{
-    transform: scale(1.1);
-}
+/*a{*/
+/*    text-decoration: none;*/
+/*}*/
+/*.link-color{*/
+/*    color: white;*/
+/*}*/
 
-.spacing{
-    padding-top: 200px;
-}
-.App .spacing a{
-    text-decoration: none;
-}
-a{
-    text-decoration: none;
-}
-.link-color{
-    color: white;
-}
-
-div{
-font-size: 15px;
-}
+/*div{*/
+/*font-size: 15px;*/
+/*}*/
 /*div{*/
 /*    overflow: hidden!important;*/
 /*}*/
-a.github svg:hover{
-transform: scale(1.1);
-}
+/*a.github svg:hover{*/
+/*transform: scale(1.1);*/
+/*}*/

@@ -7,7 +7,6 @@ import Typography from "@material-ui/core/Typography";
 import {Box, Grid} from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
-    alignCenter: theme.alignment.horizontalCenter,
     section: {
         ...theme.space.sectionSpace,
         ...theme.alignment.horizontalCenter
@@ -18,8 +17,8 @@ const useStyles = makeStyles((theme) => ({
         transition: theme.transitions.create(["transform"], {
             duration: theme.transitions.duration.standard
         }),
-        "fontSize": "30px"
-        , color: theme.palette.primary.main,
+        fontSize: "30px",
+        color: theme.palette.primary.main,
         '&:hover': {
             color: theme.palette.secondary.main,
             ...theme.actions.scale,
@@ -37,35 +36,33 @@ const useStyles = makeStyles((theme) => ({
             ...theme.actions.scale,
         },
         ...theme.style.rmOutline,
+        position:"relative",
+        top:"1px"
     }
-
 }));
 
 function Contact() {
     const classes = useStyles();
     return (
         <div id='contact' className={classes.section}>
-            <Typography variant="h2" gutterBottom className={classes.alignCenter}>
+            <Typography variant="h2" gutterBottom align="center">
                 Contact
             </Typography>
             <Box mt={5} mb={4}>
-                <Typography variant="body1" gutterBottom className={classes.alignCenter}>
+                <Typography variant="body1" gutterBottom align="center">
                     I am currently looking for Full-time opportunities starting May 2021. My inbox is always open, even
                     for just a 'Hi'.
                 </Typography>
             </Box>
-            {/*<p className="mt-5 mb-4">I am currently looking for Full-time opportunities starting May 2021. My inbox*/}
-            {/*    is always open, even for just a 'Hi'.</p>*/}
 
             <Message message='Message Me'/>
 
             <Box mt={5} mb={4}>
-                <Typography variant="body1" gutterBottom className={classes.alignCenter}>
+                <Typography variant="body1" gutterBottom align="center">
                     Or, you can connect with me on my social media!
                 </Typography>
             </Box>
 
-            {/*className="text-center align-items-lg-center"*/}
             <Grid container justify='center'>
                 <Grid item className={classes.verticalCenter}>
                     <a

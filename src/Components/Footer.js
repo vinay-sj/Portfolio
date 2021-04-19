@@ -29,7 +29,7 @@ export default function Footer() {
     return (
         <div className={classes.sectionSpace}>
             <div className={classes.alignCenter}>
-                <Typography variant="body2" gutterBottom className={classes.footer}>
+                <Typography variant="body2" gutterBottom className={classes.footer} align="center">
                     Built using React.Js by Vinay Srampickal Joseph.
                 </Typography>
                 <a
