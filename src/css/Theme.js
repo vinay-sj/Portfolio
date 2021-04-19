@@ -1,5 +1,5 @@
 import {createMuiTheme} from "@material-ui/core/styles";
-import createBreakpoints from '@material-ui/core/styles/createBreakpoints' ;
+import createBreakpoints from '@material-ui/core/styles/createBreakpoints';
 
 const breakpoints = createBreakpoints({})
 const appTheme = (lightMode) => {
@@ -48,70 +48,70 @@ const appTheme = (lightMode) => {
                 },
             }
         },
-        typography: {
-            fontSize: 13.5,
-            h1: {
-                fontWeight: 500,
-                [breakpoints.up("xs")]: {
-                    fontSize: "3rem",
-                }, [breakpoints.up("sm")]: {
-                    fontSize: "4rem",
-                },
-                [breakpoints.up("md")]: {
-                    fontSize: "5rem",
-                },
-                [breakpoints.up("lg")]: {
-                    fontSize: "6rem",
-                }, [breakpoints.up("xl")]: {
-                    fontSize: "7rem",
-                }
-            },
-            h2: {
-                [breakpoints.up("xs")]: {
-                    fontSize: "2rem",
-                }, [breakpoints.up("sm")]: {
-                    fontSize: "2rem",
-                },
-                [breakpoints.up("md")]: {
-                    fontSize: "3rem",
-                },
-                [breakpoints.up("lg")]: {
-                    fontSize: "4rem",
-                }, [breakpoints.up("xl")]: {
-                    fontSize: "5rem",
-                }
-            },
-            h3: {
-                [breakpoints.up("xs")]: {
-                    fontSize: "1.5rem",
-                }, [breakpoints.up("sm")]: {
-                    fontSize: "1.5rem",
-                },
-                [breakpoints.up("md")]: {
-                    fontSize: "2.5rem",
-                },
-                [breakpoints.up("lg")]: {
-                    fontSize: "3.5rem",
-                }, [breakpoints.up("xl")]: {
-                    fontSize: "4.5rem",
-                }
-            },
-            h4: {
-                [breakpoints.up("xs")]: {
-                    fontSize: "1.3rem",
-                }, [breakpoints.up("sm")]: {
-                    fontSize: "1.4rem",
-                },
-                [breakpoints.up("md")]: {
-                    fontSize: "1.5rem",
-                },
-                [breakpoints.up("lg")]: {
-                    fontSize: "2.5rem",
-                }, [breakpoints.up("xl")]: {
-                    fontSize: "2.5rem",
-                }
-            }
-        }
+        // typography: {
+        //     fontSize: 13.5,
+        //     h1: {
+        //         fontWeight: 500,
+        //         [breakpoints.up("xs")]: {
+        //             fontSize: "3rem",
+        //         }, [breakpoints.up("sm")]: {
+        //             fontSize: "4rem",
+        //         },
+        //         [breakpoints.up("md")]: {
+        //             fontSize: "5rem",
+        //         },
+        //         [breakpoints.up("lg")]: {
+        //             fontSize: "6rem",
+        //         }, [breakpoints.up("xl")]: {
+        //             fontSize: "7rem",
+        //         }
+        //     },
+        //     h2: {
+        //         [breakpoints.up("xs")]: {
+        //             fontSize: "2rem",
+        //         }, [breakpoints.up("sm")]: {
+        //             fontSize: "2rem",
+        //         },
+        //         [breakpoints.up("md")]: {
+        //             fontSize: "3rem",
+        //         },
+        //         [breakpoints.up("lg")]: {
+        //             fontSize: "4rem",
+        //         }, [breakpoints.up("xl")]: {
+        //             fontSize: "5rem",
+        //         }
+        //     },
+        //     h3: {
+        //         [breakpoints.up("xs")]: {
+        //             fontSize: "1.5rem",
+        //         }, [breakpoints.up("sm")]: {
+        //             fontSize: "1.5rem",
+        //         },
+        //         [breakpoints.up("md")]: {
+        //             fontSize: "2.5rem",
+        //         },
+        //         [breakpoints.up("lg")]: {
+        //             fontSize: "3.5rem",
+        //         }, [breakpoints.up("xl")]: {
+        //             fontSize: "4.5rem",
+        //         }
+        //     },
+        //     h4: {
+        //         [breakpoints.up("xs")]: {
+        //             fontSize: "1.3rem",
+        //         }, [breakpoints.up("sm")]: {
+        //             fontSize: "1.4rem",
+        //         },
+        //         [breakpoints.up("md")]: {
+        //             fontSize: "1.5rem",
+        //         },
+        //         [breakpoints.up("lg")]: {
+        //             fontSize: "2.5rem",
+        //         }, [breakpoints.up("xl")]: {
+        //             fontSize: "2.5rem",
+        //         }
+        //     }
+        // }
     }
 
     if (lightMode) {

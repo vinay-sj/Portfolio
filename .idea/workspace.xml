@@ -2,19 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf2d1f05-c056-4a3f-8d18-55abd17182c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/css/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Experiences.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/NavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/ProjectContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/StepperContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Experiences.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Experiences.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/ProjectContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/StepperContents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StepperContents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Experience.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/NavBar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Project.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Message.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Message.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/Theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +157,7 @@
       <workItem from="1616302146835" duration="12243000" />
       <workItem from="1616337399188" duration="3597000" />
       <workItem from="1616344882823" duration="3688000" />
-      <workItem from="1618786681128" duration="11351000" />
+      <workItem from="1618786681128" duration="14091000" />
     </task>
     <servers />
   </component>

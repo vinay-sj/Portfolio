@@ -1,29 +1,12 @@
 import React, {useState} from "react";
-import {Stepper, Step, StepLabel, StepContent, Avatar, StepButton} from "@material-ui/core";
+import {Avatar, Box, Grid, Step, StepButton, StepContent, StepLabel, Stepper} from "@material-ui/core";
 import {makeStyles, withStyles} from '@material-ui/core/styles';
 import {GetExperienceImage} from "./ImageLoader";
 import StepConnector from '@material-ui/core/StepConnector';
-import {Box, Grid} from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
+import styles from "../css/StepperContent";
 
-const useStyles = makeStyles((theme) => ({
-    companyAvatar: {width: "40px", height: "40px"},
-    companyPeriod: {
-        color: theme.palette.primary.main
-    },
-    companyRoleDescription: {
-        color: theme.palette.primary.main,
-    },
-    stepperLabelRoot: {
-        width: "100%"
-    },
-    stepperLabel: {
-        color: theme.palette.primary.main,
-    },
-    stepperContent: {
-        marginLeft: "20px",
-    },
-}));
+const useStyles = makeStyles(styles);
 
 function StepperContents({experiences}) {
     const classes = useStyles();

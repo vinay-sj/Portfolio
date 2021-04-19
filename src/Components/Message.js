@@ -3,16 +3,9 @@ import './../css/Message.css'
 import EmailIcon from '@material-ui/icons/Email';
 import {Box, Button} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
+import styles from "../css/Message";
 
-const useStyles = makeStyles((theme) => ({
-    mailMe: {
-        color: theme.palette.primary.main,
-        '&:hover': {
-            color: theme.palette.secondary.main,
-        },
-        ...theme.style.rmOutline,
-    }
-}));
+const useStyles = makeStyles(styles);
 
 function Message(props) {
     const classes = useStyles();

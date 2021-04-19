@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {Tabs, Tab} from '@material-ui/core';
+import {Tab, Tabs} from '@material-ui/core';
 import AppBar from '@material-ui/core/AppBar';
 import {GetProjectImage} from "./ImageLoader"
 import TabPanel from "./TabPanel";
@@ -7,20 +7,9 @@ import ProjectContent from "./ProjectContent";
 import json from "../files/json/projects.json";
 import Typography from "@material-ui/core/Typography";
 import {makeStyles} from "@material-ui/core/styles";
+import styles from "../css/Projects";
 
-const useStyles = makeStyles((theme) => ({
-    section: {
-        ...theme.space.sectionSpace,
-        ...theme.alignment.horizontalCenter
-    },
-    verticalCenter: theme.alignment.verticalMarginCenter,
-    selectedTab:{
-        color:theme.palette.secondary.main,
-    },
-    tabsIndicator:{
-        backgroundColor: theme.palette.secondary.main,
-    }
-}));
+const useStyles = makeStyles(styles);
 
 function Projects() {
     const classes = useStyles();
@@ -39,7 +28,11 @@ function Projects() {
         };
     }
     const getProjectTabs = () => {
-        return projectKeys.map((projectKey, id) => <Tab key={id} label={projectKey} {...a11yProps(id)}  classes={{selected:classes.selectedTab}}/>)
+        return projectKeys.map((projectKey, id) => <Tab key={id} label={projectKey} {...a11yProps(id)}
+                                                        classes={{
+                                                            selected: classes.selectedTab,
+                                                            root: classes.tabRoot
+                                                        }}/>)
     }
     const getProjectContent = () => {
         return projectKeys.map((projectKey, id) => {
@@ -64,7 +57,9 @@ function Projects() {
                     variant="scrollable"
                     scrollButtons="auto"
                     aria-label="scrollable project tabs"
-                    classes={{indicator:classes.tabsIndicator}}
+                    textColor="secondary"
+                    indicatorColor="secondary"
+                    classes={{root: classes.tabRoot}}
                 >
                     {getProjectTabs()}
                 </Tabs>

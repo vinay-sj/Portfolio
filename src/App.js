@@ -3,9 +3,8 @@ import './App.css';
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import Body from "./Components/Body";
-import {useState, useMemo} from "react";
-import {createMuiTheme, ThemeProvider} from "@material-ui/core/styles";
-import {Button} from "@material-ui/core";
+import {useState} from "react";
+import {ThemeProvider} from "@material-ui/core/styles";
 import {appTheme} from "./css/Theme";
 import CssBaseline from "@material-ui/core/CssBaseline";
 

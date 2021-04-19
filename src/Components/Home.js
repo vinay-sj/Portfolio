@@ -2,25 +2,9 @@ import React from 'react';
 import Message from "./Message";
 import Typography from '@material-ui/core/Typography';
 import {makeStyles} from '@material-ui/core/styles';
+import styles from "../css/Home";
 
-const useStyles = makeStyles((theme) => ({
-    hi: {
-        color: theme.palette.secondary.main,
-    },
-    name: {
-        color: theme.palette.primary,
-    },
-    role: {
-        color: theme.palette.primary,
-    },
-    description: {
-        color: theme.palette.primary,
-    },
-    section: {
-        ...theme.space.sectionSpace,
-        'text-align': "left"
-    }
-}));
+const useStyles = makeStyles(styles);
 
 function Home() {
     const classes = useStyles();

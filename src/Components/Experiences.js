@@ -3,14 +3,9 @@ import json from "../files/json/experience.json";
 import StepperContents from "./StepperContents";
 import {makeStyles} from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
+import styles from "../css/Experiences";
 
-const useStyles = makeStyles((theme) => ({
-    section: {
-        ...theme.space.sectionSpace,
-        ...theme.alignment.horizontalCenter
-    },
-    verticalCenter: theme.alignment.verticalMarginCenter,
-}));
+const useStyles = makeStyles(styles);
 
 function Experiences(props) {
     const classes = useStyles();

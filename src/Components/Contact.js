@@ -5,41 +5,9 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import {makeStyles} from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import {Box, Grid} from "@material-ui/core";
+import styles from "../css/Contact";
 
-const useStyles = makeStyles((theme) => ({
-    section: {
-        ...theme.space.sectionSpace,
-        ...theme.alignment.horizontalCenter
-    },
-    verticalCenter: theme.alignment.verticalMarginCenter,
-
-    iconGithub: {
-        transition: theme.transitions.create(["transform"], {
-            duration: theme.transitions.duration.standard
-        }),
-        fontSize: "30px",
-        color: theme.palette.primary.main,
-        '&:hover': {
-            color: theme.palette.secondary.main,
-            ...theme.actions.scale,
-        },
-        ...theme.style.rmOutline,
-    },
-    iconLinkedin: {
-        transition: theme.transitions.create(["transform"], {
-            duration: theme.transitions.duration.standard
-        }),
-        fontSize: "37px"
-        , color: theme.palette.primary.main,
-        '&:hover': {
-            color: theme.palette.secondary.main,
-            ...theme.actions.scale,
-        },
-        ...theme.style.rmOutline,
-        position:"relative",
-        top:"1px"
-    }
-}));
+const useStyles = makeStyles(styles);
 
 function Contact() {
     const classes = useStyles();
