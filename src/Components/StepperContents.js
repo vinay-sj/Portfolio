@@ -24,7 +24,7 @@ function StepperContents({experiences}) {
     })(StepConnector);
 
     return (
-        <Stepper nonLinear activeStep={activeStep} orientation="vertical" connector={<ColorlibConnector/>}>
+        <Stepper className={classes.root} nonLinear activeStep={activeStep} orientation="vertical" connector={<ColorlibConnector/>}>
             {experienceKeys.map((key, index) => {
                 const experience = experiences[key]
                 return (

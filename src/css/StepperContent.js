@@ -17,6 +17,9 @@ const styles = (theme) => ({
     },
     companyName: {
         color: theme.palette.secondary.main,
+    },
+    root:{
+        backgroundColor:theme.palette.background.default,
     }
 })
 export default styles;
