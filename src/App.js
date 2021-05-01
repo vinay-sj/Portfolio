@@ -13,7 +13,7 @@ function App() {
         const mode = window.localStorage.getItem("displayModeVJ");
         return mode !== null
             ? JSON.parse(mode)
-            : false;
+            : true;
     })
     const theme = appTheme(lightMode);
     useEffect(() => {
