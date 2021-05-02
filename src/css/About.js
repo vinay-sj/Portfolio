@@ -28,7 +28,8 @@ const styles = (theme) => ({
         "margin-top": "20px",
         'margin-bottom': "20px",
         [theme.breakpoints.down('sm')]: {
-            height: "300px"
+            width:"90%",
+            height:"auto"
         },
         [theme.breakpoints.only('md')]: {
             height: "200px"

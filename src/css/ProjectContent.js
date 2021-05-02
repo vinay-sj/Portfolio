@@ -4,7 +4,9 @@ const styles = (theme) => ({
         marginTop: "20px",
         marginBottom: "20px",
         [theme.breakpoints.down('sm')]: {
-            height: "200px"
+            // height: "200px"
+            width:"90%",
+            height:"auto"
         },
         [theme.breakpoints.only('md')]: {
             height: "250px"
