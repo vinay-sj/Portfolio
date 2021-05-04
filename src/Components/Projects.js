@@ -1,13 +1,18 @@
 import React, {useState} from "react";
-import {Tabs, Tab} from '@material-ui/core';
+import {Tab, Tabs} from '@material-ui/core';
 import AppBar from '@material-ui/core/AppBar';
 import {GetProjectImage} from "./ImageLoader"
 import TabPanel from "./TabPanel";
 import ProjectContent from "./ProjectContent";
 import json from "../files/json/projects.json";
-import './../css/Project.css';
+import Typography from "@material-ui/core/Typography";
+import {makeStyles} from "@material-ui/core/styles";
+import styles from "../css/Projects";
+
+const useStyles = makeStyles(styles);
 
 function Projects() {
+    const classes = useStyles();
     const [tabValue, setTabValue] = useState(0);
     const projects = JSON.parse(JSON.stringify(json));
     let projectKeys = Object.keys(projects);
@@ -23,7 +28,11 @@ function Projects() {
         };
     }
     const getProjectTabs = () => {
-        return projectKeys.map((projectKey, id) => <Tab key={id} label={projectKey} {...a11yProps(id)} />)
+        return projectKeys.map((projectKey, id) => <Tab key={id} label={projectKey} {...a11yProps(id)}
+                                                        classes={{
+                                                            selected: classes.selectedTab,
+                                                            root: classes.tabRoot
+                                                        }}/>)
     }
     const getProjectContent = () => {
         return projectKeys.map((projectKey, id) => {
@@ -37,8 +46,10 @@ function Projects() {
     }
 
     return (
-        <div className='spacing container' id='projects'>
-            <h1>My Projects</h1>
+        <div className={classes.section} id='projects'>
+            <Typography variant="h2" gutterBottom align="center">
+                My Projects
+            </Typography>
             <AppBar position="static" color={"transparent"}>
                 <Tabs
                     value={tabValue}
@@ -46,6 +57,9 @@ function Projects() {
                     variant="scrollable"
                     scrollButtons="auto"
                     aria-label="scrollable project tabs"
+                    textColor="secondary"
+                    indicatorColor="secondary"
+                    classes={{root: classes.tabRoot}}
                 >
                     {getProjectTabs()}
                 </Tabs>

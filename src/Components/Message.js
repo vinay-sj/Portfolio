@@ -1,27 +1,22 @@
 import React from "react";
 import './../css/Message.css'
 import EmailIcon from '@material-ui/icons/Email';
+import {Box, Button} from "@material-ui/core";
+import {makeStyles} from "@material-ui/core/styles";
+import styles from "../css/Message";
 
-class Message extends React.Component {
-    constructor(props) {
-        super(props);
-        this.message = props.message;
-    }
+const useStyles = makeStyles(styles);
 
-    render() {
-        return (
-            <div>
-                <div className="mt-3 mb-3 p-0 contact align-content-center">
-                    <a href="mailto:srampickaljoseph.v@northeastern.edu" className="link-color mb-2">
-                        <EmailIcon style={{"fontSize": "37px"}} className='message-icon mr-2'/>
-                        <span>
-            {this.message}
-            </span>
-                    </a>
-                </div>
-            </div>
-        );
-    }
+function Message(props) {
+    const classes = useStyles();
+    return (
+        <div>
+            <Button href="mailto:srampickaljoseph.v@northeastern.edu" className={classes.mailMe}>
+                <Box mr={0.5}><EmailIcon style={{"fontSize": "37px"}} className='message-icon '/></Box>
+                {props.message}
+            </Button>
+        </div>
+    );
 }
 
 export default Message;
