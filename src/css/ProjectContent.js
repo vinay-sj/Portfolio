@@ -41,6 +41,18 @@ const styles = (theme) => ({
         },
         ...theme.style.rmOutline,
     },
+    protectedGithub: { color: theme.palette.primary.main,
+        '&:hover': {
+            color: theme.palette.secondary.main,
+        },
+       textDecoration:"none!important",
+
+    },
+    requestAccess:{
+        marginLeft:"2px",
+        position:"relative",
+        bottom:"8px"
+    },
     iconLinkedin: {
         transition: theme.transitions.create(["transform"], {
             duration: theme.transitions.duration.standard

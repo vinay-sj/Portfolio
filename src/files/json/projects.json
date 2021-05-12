@@ -8,6 +8,7 @@
       "Developed a web application that detects plagiarism between two JavaScript programs and allows users to compare similarities in the code",
       "Designed an algorithm to identify strategies to avoid detection such as renaming variables, extracting code into functions, moving code, changing comments using Abstract Syntax Trees(AST)"
     ],
+    "protected": true,
     "imagePosition": "right"
   },
   "Just Dream Flight Booking": {
@@ -20,6 +21,7 @@
       "Developed backend Rest APIs and MongoDB to store and manipulate flight and passenger details",
       "Handled authentication of users using Google Sign-In for Websites, managed user sessions"
     ],
+    "protected": false,
     "imagePosition": "left"
   },
   "Issue Tracker": {
@@ -32,6 +34,7 @@
       "Implemented authentication of users using Google Sign-In for Websites, managed different user profiles and developed backend APIs using GraphQL and MongoDB",
       "Provided the user options to add, update, delete and view issues and track the status and effort of the issues"
     ],
+    "protected": true,
     "imagePosition": "right"
   },
   "Object Perception": {
@@ -43,6 +46,7 @@
       "Tracked an object in a video using feature matching in real-time using OpenCV and determine its 3D position and orientation using quaternion",
       "Compared calculated pose to ground truth using ROS package AR Track Alvar by tracking an AR tag affixed on object"
     ],
+    "protected": false,
     "imagePosition": "left"
   },
   "DuckieSky Drone": {
@@ -54,6 +58,7 @@
       "Built an autonomous Raspberry Pi drone using the Duckie Drone kit that can take-off, hover, and fly in various trajectories",
       "Tuned the Planar, Altitude, and Position controllers using PIDs to control the velocity, altitude, and position, respectively, using ROS"
     ],
+    "protected": false,
     "imagePosition": "right"
   },
   "Image Processing Application": {
@@ -65,6 +70,7 @@
       "Constructed an Image processing application in Java that performs Image Generation and Color Transformation operations using MVC architecture and design patterns",
       "Designed a UI using Java Swing that displays image and supports all functionalities and a command-line interface that can batch process multiple images"
     ],
+    "protected": true,
     "imagePosition": "left"
   },
   "OpenAI Gym LunarLander using Reinforcement Learning": {
@@ -77,6 +83,7 @@
       "Trained a Neural Network with two hidden layers using TensorFlow and solved LunarLander game using Policy Gradient algorithm",
       "Analyzed and documented agent’s performance by varying hyperparameters Alpha and Epsilon"
     ],
+    "protected": false,
     "imagePosition": "right"
   },
   "Smart Shopping Cart": {
@@ -89,6 +96,7 @@
       "Computed the position of the customer by the means of MATLAB based image processing",
       "Created a centralized automated billing system using Java to scan items in the cart and to automatically generate the bill"
     ],
+    "protected": false,
     "imagePosition": "left"
   },
   "Sun Tracking Solar Panel": {
@@ -99,6 +107,7 @@
     "body": [
       "Built a solar panel that turns automatically towards the sun depending on the intensity of sunlight using a PIC16f883A"
     ],
+    "protected": false,
     "imagePosition": "right"
   }
 }

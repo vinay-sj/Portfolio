@@ -1,14 +1,14 @@
 import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
-import {Box, Grid} from "@material-ui/core";
+import {Box, Button, Grid} from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
 import {makeStyles} from "@material-ui/core/styles";
 import styles from "../css/ProjectContent";
 
 const useStyles = makeStyles(styles);
 
-function ProjectContent(name, img, githubLink, extLink, detailList, dir) {
+function ProjectContent(name, img, githubLink, extLink, detailList, dir, gitPrivate) {
     const classes = useStyles();
     const details = (detailList) => {
         return (
@@ -19,8 +19,18 @@ function ProjectContent(name, img, githubLink, extLink, detailList, dir) {
             })
         );
     }
-    const linksinpage = (link, icon) => {
-        if (link) {
+    const linksinpage = (link, icon, privacy) => {
+        if (privacy) {
+            return (<a href={`mailto:srampickaljoseph.v@northeastern.edu?subject=REQ: Access to ${name}`} className={classes.protectedGithub} disableElevation={true}>
+                    <Box component="span" mr={0.5}>
+                        <GitHubIcon className={classes.iconGithub}/>
+                        <span className={classes.requestAccess}>Request Access</span>
+                    </Box>
+                </a>
+            )
+        }
+            // else {
+        if (link && !privacy) {
             return (
                 <a
                     href={link}
@@ -37,6 +47,7 @@ function ProjectContent(name, img, githubLink, extLink, detailList, dir) {
                 <></>
             )
         }
+        // }
     }
     const direction = (dir) => {
         if (dir === 'left') {
@@ -49,7 +60,7 @@ function ProjectContent(name, img, githubLink, extLink, detailList, dir) {
                         <ul className={classes.projectContent}>
                             {details(detailList)}
                         </ul>
-                        {linksinpage(githubLink, <GitHubIcon className={classes.iconGithub}/>)}
+                        {linksinpage(githubLink, <GitHubIcon className={classes.iconGithub}/>, gitPrivate)}
                         {linksinpage(extLink, <OpenInNewIcon className={classes.iconLinkedin}/>)}
                     </Grid>
                 </>
@@ -61,7 +72,7 @@ function ProjectContent(name, img, githubLink, extLink, detailList, dir) {
                         <ul className={classes.projectContent}>
                             {details(detailList)}
                         </ul>
-                        {linksinpage(githubLink, <GitHubIcon className={classes.iconGithub}/>)}
+                        {linksinpage(githubLink, <GitHubIcon className={classes.iconGithub}/>, gitPrivate)}
                         {linksinpage(extLink, <OpenInNewIcon className={classes.iconLinkedin}/>)}
                     </Grid>
                     <Grid item lg={6} className={classes.leftImage}>

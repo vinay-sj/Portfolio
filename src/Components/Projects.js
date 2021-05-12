@@ -40,7 +40,7 @@ function Projects() {
 
             return <TabPanel key={id} value={tabValue} index={id}>
                 {ProjectContent(projectData.name, GetProjectImage[projectData.image], projectData.githubLink, projectData.websiteLink,
-                    projectData.body, projectData.imagePosition)}
+                    projectData.body, projectData.imagePosition, projectData.protected)}
             </TabPanel>
         })
     }
