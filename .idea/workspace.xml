@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf2d1f05-c056-4a3f-8d18-55abd17182c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/ProjectContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/ProjectContent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +44,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PlageWatch/plage-watch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../WebDev TA/Grading/BhoomikaMadhukar-book-ch2/BhoomikaMadhukar-book-ch2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -81,6 +80,9 @@
       <list>
         <item itemvalue="Node.js.NavBar.js" />
         <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Node.js.NavBar.js" />
+        <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Node.js.NavBar.js" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +135,8 @@
       <workItem from="1618786681128" duration="19163000" />
       <workItem from="1618812717078" duration="924000" />
       <workItem from="1619885757317" duration="9363000" />
+      <workItem from="1622490078288" duration="367000" />
+      <workItem from="1622558701884" duration="2724000" />
     </task>
     <servers />
   </component>
