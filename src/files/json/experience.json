@@ -1,9 +1,21 @@
 {
+  "KhouryTa": {
+    "companyName": "Northeastern University",
+    "role": "Teaching Assistant",
+    "startDate": "May, 2021",
+    "endDate": "Present",
+    "location": "Boston, MA.",
+    "data": [
+      "Mentored a graduate class of 85 students by conducting weekly office hours, tutoring sessions and grading coursework",
+      "Assisted professor in timely assessment and provided relevant feedback to students to support continuous learning"
+    ],
+    "logo": "NortheasternIcon"
+  },
   "QuantUniversity": {
     "companyName": "QuantUniversity",
-    "role": "Front-End Developer Intern",
+    "role": "Back-End Developer Intern",
     "startDate": "January, 2021",
-    "endDate": "Present",
+    "endDate": "April, 2021",
     "location": "Boston, MA.",
     "data": [
       "Building and updating websites using Javascript and Angular JS",

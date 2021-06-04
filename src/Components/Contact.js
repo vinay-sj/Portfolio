@@ -18,7 +18,7 @@ function Contact() {
             </Typography>
             <Box mt={5} mb={4}>
                 <Typography variant="body1" gutterBottom align="center">
-                    I am currently looking for Full-time opportunities starting May 2021. My inbox is always open, even
+                    I am currently looking for Full-time opportunities starting December 2021. My inbox is always open, even
                     for just a 'Hi'.
                 </Typography>
             </Box>

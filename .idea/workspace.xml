@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf2d1f05-c056-4a3f-8d18-55abd17182c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/json/experience.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/json/experience.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../WebDev TA/Grading/BhoomikaMadhukar-book-ch2/BhoomikaMadhukar-book-ch2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../WebDev TA/Grading/MatthewFaucher-Book-master/MatthewFaucher-Book-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,17 +74,38 @@
       <recent name="C:\Users\vinay\OneDrive - Northeastern University\Desktop\Personal Webpage\portfolio\src\files" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.NavBar.js">
+  <component name="RunManager" selected="Docker.docker-compose.yml.app: Compose Deployment">
     <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/App.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
     <configuration name="NavBar.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Components/NavBar.js" working-dir="$PROJECT_DIR$/src/Components">
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.NavBar.js" />
-        <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Docker.docker-compose.yml.app: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Node.js.NavBar.js" />
         <item itemvalue="Node.js.App.js" />
         <item itemvalue="Node.js.NavBar.js" />
@@ -136,7 +162,11 @@
       <workItem from="1618812717078" duration="924000" />
       <workItem from="1619885757317" duration="9363000" />
       <workItem from="1622490078288" duration="367000" />
-      <workItem from="1622558701884" duration="2724000" />
+      <workItem from="1622558701884" duration="3028000" />
+      <workItem from="1622571576360" duration="237000" />
+      <workItem from="1622584777248" duration="2377000" />
+      <workItem from="1622653885384" duration="664000" />
+      <workItem from="1622666300015" duration="13350000" />
     </task>
     <servers />
   </component>
