@@ -1,7 +1,7 @@
 {
   "KhouryTa": {
     "companyName": "Northeastern University",
-    "role": "Teaching Assistant",
+    "role": "Graduate Teaching Assistant",
     "startDate": "May, 2021",
     "endDate": "Present",
     "location": "Boston, MA.",
@@ -13,13 +13,15 @@
   },
   "QuantUniversity": {
     "companyName": "QuantUniversity",
-    "role": "Back-End Developer Intern",
+    "role": "Software Engineering Intern",
     "startDate": "January, 2021",
     "endDate": "April, 2021",
     "location": "Boston, MA.",
     "data": [
-      "Building and updating websites using Javascript and Angular JS",
-      "Developed REST APIs to work with backend infrastructure"
+      "Collaborated on developing a PaaS DevOps web application that helps data science learners to build and deploy working environments and data pipelines on cloud platforms",
+      "Developed a toolkit for users to add artefacts and generate report from model and data cards 60% faster",
+      "Designed a system using which project owner can control access to users with 3 levels of permissions (read, write and audit)",
+      "Optimized the UI and made the application responsive and mobile friendly"
     ],
     "logo": "QuantUniversityIcon"
   },
@@ -50,7 +52,7 @@
   },
   "VistanHealth": {
     "companyName": "Vistan Health",
-    "role": "Software Engineer Intern",
+    "role": "Software Engineering Intern",
     "startDate": "May, 2020",
     "endDate": "August, 2020",
     "location": "Boston, MA.",
