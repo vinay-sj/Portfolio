@@ -1,23 +1,29 @@
-import React from 'react';
-import Contact from "./Contact";
-import Projects from "./Projects";
-import Home from "./Home";
-import About from "./About";
-import Experiences from "./Experiences";
-import {Container} from "@material-ui/core";
+import React, {lazy, Suspense} from 'react';
+import {CircularProgress, Container} from "@material-ui/core";
+import {makeStyles} from "@material-ui/core/styles";
+import styles from "../css/Body";
+const Home = lazy(() => import("./Home"));
+const Contact = lazy(() => import("./Contact"));
+const Projects = lazy(() => import("./Projects"));
+const About = lazy(() => import("./About"));
+const Experiences = lazy(() => import("./Experiences"));
 
-class Body extends React.Component {
-    render() {
+
+const useStyles = makeStyles(styles);
+function Body (){
+
+    const classes = useStyles();
         return (
             <Container maxWidth="xl">
-                <Home/>
-                <About/>
-                <Experiences/>
-                <Projects/>
-                <Contact/>
+                <Suspense fallback={<CircularProgress color="secondary"/>}>
+                    <Home/>
+                    <About/>
+                    <Experiences/>
+                    <Projects/>
+                    <Contact/>
+                </Suspense>
             </Container>
         );
-    }
 }
 
 export default Body;

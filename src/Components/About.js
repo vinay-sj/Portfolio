@@ -1,7 +1,6 @@
 import React from "react";
 import profile from './../files/Vinay.jpg'
 import Typography from "@material-ui/core/Typography";
-
 import {makeStyles} from '@material-ui/core/styles';
 import {Grid, List, ListItem} from "@material-ui/core";
 import styles from "../css/About";
@@ -54,7 +53,7 @@ function About() {
                     </List>
                 </Grid>
                 <Grid item md={6} order={1} className={classes.item2}>
-                    <img className={classes.photo} src={profile} alt='profile'/>
+                    <img loading="lazy" className={classes.photo} src={profile} alt='profile'/>
                 </Grid>
             </Grid>
         </div>

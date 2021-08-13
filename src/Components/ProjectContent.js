@@ -1,7 +1,7 @@
 import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
-import {Box, Grid} from "@material-ui/core";
+import {Box, CircularProgress, Grid} from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
 import {makeStyles} from "@material-ui/core/styles";
 import styles from "../css/ProjectContent";
@@ -66,6 +66,7 @@ function ProjectContent(name, img, githubLink, extLink, detailList, dir) {
                     </Grid>
                     <Grid item lg={6} className={classes.leftImage}>
                         <img
+                            loading="lazy"
                             className={classes.projectImg}
                             src={img} alt={name}
                         />

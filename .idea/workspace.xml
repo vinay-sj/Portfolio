@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf2d1f05-c056-4a3f-8d18-55abd17182c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/css/Body.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/files/json/experience.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/json/experience.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ProjectContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/Vinay_Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/Vinay_Resume.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../WebDev TA/GroupProjectRestaurant" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -163,7 +170,15 @@
       <workItem from="1622653885384" duration="664000" />
       <workItem from="1622666300015" duration="17101000" />
       <workItem from="1623429508572" duration="10000" />
-      <workItem from="1624378392944" duration="587000" />
+      <workItem from="1624378392944" duration="3717000" />
+      <workItem from="1625029885596" duration="1046000" />
+      <workItem from="1625248041626" duration="22000" />
+      <workItem from="1626163358045" duration="9743000" />
+      <workItem from="1626212663500" duration="17000" />
+      <workItem from="1626500219653" duration="1362000" />
+      <workItem from="1626579907277" duration="26000" />
+      <workItem from="1628324450754" duration="6995000" />
+      <workItem from="1628872640811" duration="49000" />
     </task>
     <servers />
   </component>
