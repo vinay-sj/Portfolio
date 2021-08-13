@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf2d1f05-c056-4a3f-8d18-55abd17182c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/files/json/experience.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/json/experience.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/Vinay_Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/Vinay_Resume.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,9 +100,6 @@
       <list>
         <item itemvalue="Docker.docker-compose.yml.app: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Node.js.NavBar.js" />
-        <item itemvalue="Node.js.App.js" />
-        <item itemvalue="Node.js.NavBar.js" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +160,7 @@
       <workItem from="1622666300015" duration="17101000" />
       <workItem from="1623429508572" duration="10000" />
       <workItem from="1624378392944" duration="587000" />
+      <workItem from="1628880161926" duration="25000" />
     </task>
     <servers />
   </component>

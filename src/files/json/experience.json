@@ -51,7 +51,7 @@
     "logo": "NortheasternIcon"
   },
   "VistanHealth": {
-    "companyName": "Vistan Health",
+    "companyName": "VISTAN Health",
     "role": "Software Engineering Intern",
     "startDate": "May, 2020",
     "endDate": "August, 2020",
@@ -59,7 +59,7 @@
     "data": [
       "Contributed as a Full Stack Developer to develop a web application for Physicians to monitor Patients. Built authentication module to secure backend APIs using Cognito",
       "Created a chatbot using Amazon Lex that can help patients resolve health queries and connect with physicians. Wrote and reviewed code in 2 languages JavaScript and Python",
-      "Represented Vistan Health at the MIT COVID-19 Challenge and the Crisis Challenge Innovation Competition"
+      "Represented VISTAN Health at the MIT COVID-19 Challenge and the Crisis Challenge Innovation Competition"
     ],
     "logo": "VistanHealthIcon"
   },
